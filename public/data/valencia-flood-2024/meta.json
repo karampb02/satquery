@@ -1,0 +1,78 @@
+{
+  "id": "valencia-flood-2024",
+  "title": "Valencia Flash Flood Disaster 2024",
+  "change_type": "flood",
+  "change_type_label": "Surface Water & Flood Inundation",
+  "location": "Valencia, Spain",
+  "country": "Spain",
+  "flag": "real",
+  "dates": {
+    "before": "2024-10-26",
+    "after": "2024-11-01"
+  },
+  "bbox": [
+    -0.6,
+    39.2,
+    -0.2,
+    39.6
+  ],
+  "center": [
+    -0.4,
+    39.4
+  ],
+  "zoom": 10.2,
+  "source_products": [
+    "OPERA_L3_DSWx-HLS_T30SYJ_20241021T104317Z_20241023T085709Z_L8_30_v1.0",
+    "OPERA_L3_DSWx-HLS_T31SBD_20241021T104317Z_20241023T085612Z_L8_30_v1.0"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "Catastrophic DANA storm triggered unprecedented flash flooding across the Turia basin and coastal plains.",
+  "story": "On October 29, 2024, an isolated high-altitude depression (DANA) stalled over the Valencian Community, dumping more than a full year's rainfall in under 8 hours. Flash floods swept through towns south of Valencia, inundating residential zones, agricultural fields, and the Albufera coastal wetland lagoon. NASA OPERA DSWx-S1 and SAR imagery mapped the sudden surge of standing water across urbanized and rural floodways.",
+  "why_sar": "Why radar sees through cloud and night: Optical imagery was rendered completely unusable by the dense torrential storm clouds during the peak disaster hours, while radar passed straight through to map flooded neighborhoods.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Pre-Event Coastal Plain",
+      "description": "Dry agricultural fields and urban settlements south of Valencia prior to the catastrophic DANA weather event.",
+      "center": [
+        -0.4,
+        39.4
+      ],
+      "zoom": 10.2,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Post-Disaster Flash Flood Inundation",
+      "description": "Torrential waters filled river ravines and flooded surrounding plains, visibly dark in radar backscatter.",
+      "center": [
+        -0.42,
+        39.38
+      ],
+      "zoom": 10.8,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "OPERA DSWx-S1 Water Extent",
+      "description": "Algorithmic water classification isolates standing water bodies and agricultural drowning zones.",
+      "center": [
+        -0.38,
+        39.35
+      ],
+      "zoom": 11.0,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Albufera Coastal Lagoon Expansion",
+      "description": "Massive sediment and stormwater runoff expanded the Albufera wetland complex before emptying into the Mediterranean.",
+      "center": [
+        -0.35,
+        39.32
+      ],
+      "zoom": 11.2,
+      "layer": "change"
+    }
+  ]
+}

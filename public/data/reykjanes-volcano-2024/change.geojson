@@ -1,0 +1,499 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "reykjanes-volcano-2024",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-1",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-1",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 1.99,
+        "metric": "61.2 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.43719,
+              63.8811
+            ],
+            [
+              -22.44041,
+              63.87997
+            ],
+            [
+              -22.44091,
+              63.88033
+            ],
+            [
+              -22.4433,
+              63.88227
+            ],
+            [
+              -22.44416,
+              63.88297
+            ],
+            [
+              -22.44748,
+              63.88082
+            ],
+            [
+              -22.45335,
+              63.87847
+            ],
+            [
+              -22.45538,
+              63.87549
+            ],
+            [
+              -22.45003,
+              63.87381
+            ],
+            [
+              -22.45076,
+              63.87255
+            ],
+            [
+              -22.4472,
+              63.87215
+            ],
+            [
+              -22.43803,
+              63.8753
+            ],
+            [
+              -22.43719,
+              63.8811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-2",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-2",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 0.81,
+        "metric": "63.8 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.38266,
+              63.85524
+            ],
+            [
+              -22.38592,
+              63.85745
+            ],
+            [
+              -22.39129,
+              63.85837
+            ],
+            [
+              -22.3909,
+              63.85715
+            ],
+            [
+              -22.39201,
+              63.85738
+            ],
+            [
+              -22.38864,
+              63.84922
+            ],
+            [
+              -22.38645,
+              63.84745
+            ],
+            [
+              -22.38266,
+              63.85524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-3",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-3",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 3.09,
+        "metric": "50.7 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.36064,
+              63.87704
+            ],
+            [
+              -22.36733,
+              63.88155
+            ],
+            [
+              -22.37827,
+              63.88169
+            ],
+            [
+              -22.37694,
+              63.86715
+            ],
+            [
+              -22.37228,
+              63.86713
+            ],
+            [
+              -22.37126,
+              63.86839
+            ],
+            [
+              -22.36148,
+              63.86957
+            ],
+            [
+              -22.36464,
+              63.87223
+            ],
+            [
+              -22.36064,
+              63.87704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-4",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-4",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 1.88,
+        "metric": "26.7 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.38639,
+              63.87221
+            ],
+            [
+              -22.38596,
+              63.87264
+            ],
+            [
+              -22.39003,
+              63.87403
+            ],
+            [
+              -22.39535,
+              63.87285
+            ],
+            [
+              -22.39626,
+              63.87338
+            ],
+            [
+              -22.39795,
+              63.87357
+            ],
+            [
+              -22.40361,
+              63.87489
+            ],
+            [
+              -22.41247,
+              63.87368
+            ],
+            [
+              -22.41639,
+              63.87242
+            ],
+            [
+              -22.40969,
+              63.86774
+            ],
+            [
+              -22.40654,
+              63.86768
+            ],
+            [
+              -22.40182,
+              63.86771
+            ],
+            [
+              -22.38639,
+              63.87221
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-5",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-5",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 5.73,
+        "metric": "38.6 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.38229,
+              63.85086
+            ],
+            [
+              -22.3931,
+              63.85838
+            ],
+            [
+              -22.39409,
+              63.85881
+            ],
+            [
+              -22.39702,
+              63.86051
+            ],
+            [
+              -22.41487,
+              63.85215
+            ],
+            [
+              -22.41439,
+              63.84234
+            ],
+            [
+              -22.40878,
+              63.84206
+            ],
+            [
+              -22.40588,
+              63.839
+            ],
+            [
+              -22.40207,
+              63.84068
+            ],
+            [
+              -22.38229,
+              63.85086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-6",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-6",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 3.12,
+        "metric": "20.4 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.37529,
+              63.89712
+            ],
+            [
+              -22.3813,
+              63.89891
+            ],
+            [
+              -22.38487,
+              63.89381
+            ],
+            [
+              -22.39014,
+              63.89506
+            ],
+            [
+              -22.38668,
+              63.88818
+            ],
+            [
+              -22.39017,
+              63.88716
+            ],
+            [
+              -22.37728,
+              63.88632
+            ],
+            [
+              -22.37135,
+              63.88642
+            ],
+            [
+              -22.36449,
+              63.88537
+            ],
+            [
+              -22.37529,
+              63.89712
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-7",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-7",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 4.93,
+        "metric": "40.0 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.39276,
+              63.89849
+            ],
+            [
+              -22.39954,
+              63.90056
+            ],
+            [
+              -22.41065,
+              63.90504
+            ],
+            [
+              -22.42488,
+              63.89023
+            ],
+            [
+              -22.3989,
+              63.88985
+            ],
+            [
+              -22.39116,
+              63.8921
+            ],
+            [
+              -22.39717,
+              63.89437
+            ],
+            [
+              -22.39658,
+              63.89453
+            ],
+            [
+              -22.39276,
+              63.89849
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reykjanes-volcano-2024-poly-8",
+      "properties": {
+        "id": "reykjanes-volcano-2024-poly-8",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 2.91,
+        "metric": "48.3 cm LOS offset",
+        "date_range": "2024-01-14 to 2024-03-16",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.36526,
+              63.85339
+            ],
+            [
+              -22.36965,
+              63.85438
+            ],
+            [
+              -22.37798,
+              63.85721
+            ],
+            [
+              -22.38412,
+              63.85586
+            ],
+            [
+              -22.39323,
+              63.85198
+            ],
+            [
+              -22.38984,
+              63.85006
+            ],
+            [
+              -22.37984,
+              63.84657
+            ],
+            [
+              -22.36699,
+              63.8492
+            ],
+            [
+              -22.36526,
+              63.85339
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

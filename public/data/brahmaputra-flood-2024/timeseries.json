@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2024-06-01",
+    "value": 372.1,
+    "label": "Pre-monsoon Base"
+  },
+  {
+    "date": "2024-06-15",
+    "value": 386.4,
+    "label": "Rains Begin"
+  },
+  {
+    "date": "2024-06-28",
+    "value": 542.8,
+    "label": "River Surging"
+  },
+  {
+    "date": "2024-07-05",
+    "value": 724.3,
+    "label": "Peak Flood Stage"
+  },
+  {
+    "date": "2024-07-14",
+    "value": 798.8,
+    "label": "Max Inundation Extent"
+  },
+  {
+    "date": "2024-07-28",
+    "value": 610.5,
+    "label": "Partial Drainage"
+  }
+]

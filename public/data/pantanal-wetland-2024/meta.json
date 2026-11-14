@@ -1,0 +1,78 @@
+{
+  "id": "pantanal-wetland-2024",
+  "title": "Pantanal Wetland Hydrological Flux 2024",
+  "change_type": "flood",
+  "change_type_label": "Surface Water & Flood Inundation",
+  "location": "Mato Grosso do Sul, Brazil",
+  "country": "Brazil",
+  "flag": "real",
+  "dates": {
+    "before": "2024-04-15",
+    "after": "2024-08-28"
+  },
+  "bbox": [
+    -57.3,
+    -19.3,
+    -56.6,
+    -18.6
+  ],
+  "center": [
+    -56.95,
+    -18.95
+  ],
+  "zoom": 9.4,
+  "source_products": [
+    "OPERA_L3_DSWx-HLS_T21KWV_20240402T134659Z_20240404T100401Z_S2B_30_v1.0",
+    "OPERA_L3_DSWx-HLS_T21KWU_20240402T134659Z_20240404T100330Z_S2B_30_v1.0"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "Severe drought contracted wetland surface water extent by 64.2% across critical biomes.",
+  "story": "The Pantanal is the world's largest tropical wetland. In 2024, prolonged South American drought and record heat led to a historic failure of the seasonal flood pulse, leaving vast lagoons desiccated and vulnerable to runaway wildfires. L-band SAR backscatter reveals severe water surface retraction and soil moisture depletion across vital aquatic refugia.",
+  "why_sar": "Why radar sees through cloud and night: Dense wildfire smoke plumes blanketed the Pantanal during the dry season, but radar microwaves easily penetrated the smoke to track vanishing water holes.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "April Hydrological Baseline",
+      "description": "Expansive flooded marshes and dendritic channels sustained wetland biodiversity.",
+      "center": [
+        -56.95,
+        -18.95
+      ],
+      "zoom": 9.4,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "August Extreme Desiccation",
+      "description": "Extreme drought evaporated lagoons, exposing dry mudflats and dry grass savannahs.",
+      "center": [
+        -56.9,
+        -18.9
+      ],
+      "zoom": 9.8,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Wetland Loss Vectorization",
+      "description": "Change detection polygons highlight critical dried water bodies and fragmented river oxbows.",
+      "center": [
+        -57.05,
+        -18.85
+      ],
+      "zoom": 10.2,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Ecological Fire Risk Vulnerability",
+      "description": "Dry peat and desiccated reed beds mapped by radar coincided with subsequent catastrophic wildfire ignitions.",
+      "center": [
+        -56.85,
+        -19.05
+      ],
+      "zoom": 10.4,
+      "layer": "change"
+    }
+  ]
+}

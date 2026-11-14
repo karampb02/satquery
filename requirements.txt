@@ -1,0 +1,6 @@
+earthaccess
+rasterio
+shapely
+pillow
+numpy
+python-dotenv

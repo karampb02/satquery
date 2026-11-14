@@ -1,0 +1,78 @@
+{
+  "id": "jasper-wildfire-2024",
+  "title": "Jasper Complex Wildfire Burn Scar 2024",
+  "change_type": "vegetation",
+  "change_type_label": "Forest Canopy & Disturbance",
+  "location": "Jasper National Park, Alberta, Canada",
+  "country": "Canada",
+  "flag": "real",
+  "dates": {
+    "before": "2024-07-18",
+    "after": "2024-08-15"
+  },
+  "bbox": [
+    -118.3,
+    52.78,
+    -117.85,
+    53.02
+  ],
+  "center": [
+    -118.08,
+    52.9
+  ],
+  "zoom": 10.4,
+  "source_products": [
+    "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240715T185921Z_20240717T223641Z_S2A_30_v1",
+    "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240717T185335Z_20240719T083558Z_L8_30_v1"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "Intense wildfire destroyed over 330 km\u00b2 of montane pine forest canopy in Athabasca Valley.",
+  "story": "In late July 2024, lightning ignitions combined with prolonged drought sparked the Jasper Complex Wildfire. Driven by 100 km/h winds and wall-of-fire crown blazes, the fire swept through the Athabasca River valley and into the historic townsite of Jasper. Dense pyrocumulonimbus smoke plumes choked optical instruments, while radar microwave sensors mapped canopy burn severity in real time.",
+  "why_sar": "Why radar sees through cloud and night: Dense pyrocumulonimbus smoke clouds reaching the stratosphere completely blinded visible sensors; radar waves penetrated directly through the dense smoke canopy.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Jasper Alpine Forest Baseline",
+      "description": "Lodgepole pine and Douglas fir forests in the rugged Canadian Rocky Mountains prior to ignition.",
+      "center": [
+        -118.08,
+        52.9
+      ],
+      "zoom": 10.4,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Severe Canopy Consumption",
+      "description": "Post-fire radar image reveals dramatic loss of radar backscatter where needle canopy and branches were incinerated.",
+      "center": [
+        -118.05,
+        52.88
+      ],
+      "zoom": 10.8,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Burn Scar Severity Mapping",
+      "description": "OPERA DIST vegetation disturbance anomalies classify high-severity crown fire zones versus unburned islands.",
+      "center": [
+        -118.12,
+        52.93
+      ],
+      "zoom": 11.2,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Athabasca Valley Perimeter",
+      "description": "Burn polygons guide foresters assessing slope stability and post-fire landslide risks along Highway 16.",
+      "center": [
+        -118.0,
+        52.85
+      ],
+      "zoom": 11.4,
+      "layer": "change"
+    }
+  ]
+}

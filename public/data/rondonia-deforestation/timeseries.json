@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-05-10",
+    "value": 2480.0,
+    "label": "Dry Season Start"
+  },
+  {
+    "date": "2024-06-25",
+    "value": 2435.4,
+    "label": "Road Expansion"
+  },
+  {
+    "date": "2024-08-01",
+    "value": 2380.1,
+    "label": "Logging Escalation"
+  },
+  {
+    "date": "2024-09-12",
+    "value": 2320.5,
+    "label": "Pasture Clearing"
+  },
+  {
+    "date": "2024-10-05",
+    "value": 2292.8,
+    "label": "End of Logging Season"
+  }
+]

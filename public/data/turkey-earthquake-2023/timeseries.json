@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2023-01-15",
+    "value": 0.2,
+    "label": "Interseismic Creep"
+  },
+  {
+    "date": "2023-01-28",
+    "value": 0.0,
+    "label": "Pre-Earthquake Baseline"
+  },
+  {
+    "date": "2023-02-06",
+    "value": 65.4,
+    "label": "Coseismic Rupture (Mw 7.8)"
+  },
+  {
+    "date": "2023-02-09",
+    "value": 68.2,
+    "label": "Postseismic Relaxation"
+  },
+  {
+    "date": "2023-02-20",
+    "value": 69.8,
+    "label": "Afterslip Accumulation"
+  }
+]

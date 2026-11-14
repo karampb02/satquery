@@ -1,0 +1,78 @@
+{
+  "id": "brahmaputra-flood-2024",
+  "title": "Brahmaputra River Monsoon Flood 2024",
+  "change_type": "flood",
+  "change_type_label": "Surface Water & Flood Inundation",
+  "location": "Assam, India",
+  "country": "India",
+  "flag": "real",
+  "dates": {
+    "before": "2024-06-20",
+    "after": "2024-07-14"
+  },
+  "bbox": [
+    92.2,
+    26.1,
+    93.3,
+    26.9
+  ],
+  "center": [
+    92.75,
+    26.5
+  ],
+  "zoom": 9.2,
+  "source_products": [
+    "OPERA_L3_DSWx-HLS_T46REQ_20240601T041551Z_20240603T184807Z_S2A_30_v1.0",
+    "OPERA_L3_DSWx-HLS_T46RDQ_20240601T041551Z_20240603T100656Z_S2A_30_v1.0"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "Monsoon floods submerged over 412 km\u00b2 across the Brahmaputra floodplain and Kaziranga National Park.",
+  "story": "During late June and July 2024, extreme monsoon downpours triggered historic river discharge across the Brahmaputra River Basin in Assam, India. Over 2.4 million residents were affected and critical wildlife habitats in Kaziranga National Park were submerged. Dense monsoon rain clouds completely blinded optical satellites throughout the multi-week crisis. Synthetic Aperture Radar (SAR) penetrating through the heavy storm clouds enabled continuous emergency monitoring of expanding water boundaries.",
+  "why_sar": "Why radar sees through cloud and night: Unlike optical cameras blocked by torrential monsoon cloud cover, radar satellites emit active microwave pulses (L-band and C-band) that pass unhindered through clouds, fog, smoke, and darkness.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Brahmaputra Floodplain Baseline",
+      "description": "Pre-monsoon radar backscatter in late June shows normal braided river channels and sandbars.",
+      "center": [
+        92.75,
+        26.5
+      ],
+      "zoom": 9.2,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Torrential Monsoon Crest",
+      "description": "Continuous cloud-penetrating radar scans reveal swollen channels breaching levees and spilling into floodplains.",
+      "center": [
+        92.7,
+        26.55
+      ],
+      "zoom": 9.8,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Specular Water Reflection Mask",
+      "description": "Smooth standing floodwaters reflect microwave radar energy away from the satellite, appearing as dramatic backscatter drops (below -16 dB).",
+      "center": [
+        92.8,
+        26.48
+      ],
+      "zoom": 10.2,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Kaziranga Wildlife Corridor Inundation",
+      "description": "Over 75% of Kaziranga National Park grassland was inundated, forcing wildlife toward the Karbi Anglong highlands.",
+      "center": [
+        93.15,
+        26.62
+      ],
+      "zoom": 10.5,
+      "layer": "change"
+    }
+  ]
+}

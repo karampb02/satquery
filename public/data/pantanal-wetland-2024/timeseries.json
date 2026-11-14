@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-01-15",
+    "value": 680.4,
+    "label": "Wet Season Peak"
+  },
+  {
+    "date": "2024-04-15",
+    "value": 512.6,
+    "label": "Early Season Shrinkage"
+  },
+  {
+    "date": "2024-06-20",
+    "value": 340.2,
+    "label": "Accelerating Drought"
+  },
+  {
+    "date": "2024-08-28",
+    "value": 183.5,
+    "label": "Extreme Desiccation"
+  },
+  {
+    "date": "2024-10-10",
+    "value": 162.0,
+    "label": "Historic Low Level"
+  }
+]

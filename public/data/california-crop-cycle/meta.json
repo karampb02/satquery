@@ -1,0 +1,78 @@
+{
+  "id": "california-crop-cycle",
+  "title": "San Joaquin Valley Agricultural Phenology",
+  "change_type": "vegetation",
+  "change_type_label": "Forest Canopy & Disturbance",
+  "location": "San Joaquin Valley, California",
+  "country": "United States",
+  "flag": "real",
+  "dates": {
+    "before": "2024-03-15",
+    "after": "2024-08-30"
+  },
+  "bbox": [
+    -119.85,
+    36.5,
+    -119.35,
+    36.9
+  ],
+  "center": [
+    -119.6,
+    36.7
+  ],
+  "zoom": 10.1,
+  "source_products": [
+    "OPERA_L3_DIST-ALERT-HLS_T11SKA_20240301T184311Z_20240305T221628Z_S2A_30_v1",
+    "OPERA_L3_DIST-ALERT-HLS_T10SGF_20240301T184311Z_20240305T221629Z_S2A_30_v1"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "Seasonal crop phenology reveals harvest dynamics across 245 km\u00b2 of irrigated agricultural fields.",
+  "story": "California's Central Valley is one of the world's most productive agricultural regions. Throughout spring and summer, fields of almonds, alfalfa, tomatoes, and cotton undergo rapid phenological shifts. NISAR L-band polarimetry (HH/HV) probes the crop canopy volume, soil roughness, and moisture content with surgical precision, revealing field-by-field harvest and planting rhythms without needing cloud-free skies.",
+  "why_sar": "Why radar sees through cloud and night: Morning tule fog frequently obscures optical imagery in California's Central Valley; SAR satellites monitor crop growth status through fog cycles and during night orbits.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Spring Pre-Planting Baseline",
+      "description": "Smooth bare soil fields scatter microwave energy specularly, creating distinct low backscatter signatures.",
+      "center": [
+        -119.6,
+        36.7
+      ],
+      "zoom": 10.1,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Midsummer Canopy Development",
+      "description": "Dense crop biomass produces strong volume scattering, brightening individual rectangular parcels in radar images.",
+      "center": [
+        -119.55,
+        36.68
+      ],
+      "zoom": 10.7,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Field-by-Field Biomass Change",
+      "description": "Change detection polygons clearly delineate individual irrigated parcel boundaries and harvest progressions.",
+      "center": [
+        -119.65,
+        36.72
+      ],
+      "zoom": 11.2,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Soil Moisture & Water Optimization",
+      "description": "L-band dielectric sensitivity empowers water managers to verify irrigation timing and drought fallowing policies.",
+      "center": [
+        -119.58,
+        36.75
+      ],
+      "zoom": 11.5,
+      "layer": "change"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "rutford-ice-stream",
+  "title": "Rutford Ice Stream Flow & Tidal Flexure",
+  "change_type": "deformation",
+  "change_type_label": "Ground Deformation & InSAR Displacement",
+  "location": "Rutford Ice Stream, West Antarctica",
+  "country": "Antarctica",
+  "flag": "real",
+  "dates": {
+    "before": "2024-01-15",
+    "after": "2024-03-20"
+  },
+  "bbox": [
+    -81.2,
+    -78.5,
+    -79.3,
+    -77.9
+  ],
+  "center": [
+    -80.25,
+    -78.2
+  ],
+  "zoom": 8.8,
+  "source_products": [
+    "NISAR_L2_GUNW_BETA_V1",
+    "OPERA_L3_DISP-S1"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata",
+  "headline": "InSAR velocity fringes track fast Antarctic ice stream surging at over 400 meters per year.",
+  "story": "The Rutford Ice Stream drains a massive sector of the West Antarctic Ice Sheet into the Ronne Ice Shelf. Flowing at speeds exceeding 400 meters per year, it is governed by subglacial bed conditions and tidal bending at the grounding zone. NISAR's L-band radar penetrates deep into dry polar snow and firn, preserving radar coherence over weeks to measure ice stream velocities and grounding line migration.",
+  "why_sar": "Why radar sees through cloud and night: Antarctica experiences months of uninterrupted polar night and relentless blizzards. Radar produces daylight-quality imagery and sub-millimeter motion measurements year-round.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Ellsworth Mountains & Glacier Margin",
+      "description": "Glacial ice streams carved between rocky mountain nunataks in West Antarctica.",
+      "center": [
+        -80.25,
+        -78.2
+      ],
+      "zoom": 8.8,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Interferometric Flow Velocity Fringes",
+      "description": "Dense parallel fringes depict fast laminar ice stream shear against slow-moving stagnant ice margins.",
+      "center": [
+        -80.2,
+        -78.15
+      ],
+      "zoom": 9.2,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Tidal Grounding Line Bending Zone",
+      "description": "Circular flexure fringes capture oceanic ocean tides lifting and bending the floating Ronne Ice Shelf.",
+      "center": [
+        -79.8,
+        -78.05
+      ],
+      "zoom": 9.6,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Ice Stream Mass Loss Telemetry",
+      "description": "Precise velocities enable glaciologists to calculate annual ice discharge into the Southern Ocean.",
+      "center": [
+        -80.5,
+        -78.25
+      ],
+      "zoom": 9.8,
+      "layer": "change"
+    }
+  ]
+}

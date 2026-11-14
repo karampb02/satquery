@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-03-15",
+    "value": 310.5,
+    "label": "Early Spring Bare Soil"
+  },
+  {
+    "date": "2024-04-20",
+    "value": 395.2,
+    "label": "Emergence & Irrigation"
+  },
+  {
+    "date": "2024-06-15",
+    "value": 520.4,
+    "label": "Peak Canopy Vigor"
+  },
+  {
+    "date": "2024-07-25",
+    "value": 585.1,
+    "label": "Maturity Stage"
+  },
+  {
+    "date": "2024-08-30",
+    "value": 555.5,
+    "label": "Late Summer Harvest"
+  }
+]

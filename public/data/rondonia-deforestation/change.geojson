@@ -1,0 +1,507 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "rondonia-deforestation",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-1",
+      "properties": {
+        "id": "rondonia-deforestation-poly-1",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 71.43,
+        "metric": "-57.1 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.13649,
+              -10.09561
+            ],
+            [
+              -63.176,
+              -10.09872
+            ],
+            [
+              -63.23508,
+              -10.08941
+            ],
+            [
+              -63.2787,
+              -10.10958
+            ],
+            [
+              -63.29028,
+              -10.11714
+            ],
+            [
+              -63.25125,
+              -10.13
+            ],
+            [
+              -63.24133,
+              -10.12683
+            ],
+            [
+              -63.17696,
+              -10.13807
+            ],
+            [
+              -63.14043,
+              -10.11576
+            ],
+            [
+              -63.14338,
+              -10.11533
+            ],
+            [
+              -63.13649,
+              -10.09561
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-2",
+      "properties": {
+        "id": "rondonia-deforestation-poly-2",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 78.36,
+        "metric": "-62.7 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.26918,
+              -10.07858
+            ],
+            [
+              -63.3075,
+              -10.06349
+            ],
+            [
+              -63.34838,
+              -10.05386
+            ],
+            [
+              -63.43165,
+              -10.07988
+            ],
+            [
+              -63.36901,
+              -10.11391
+            ],
+            [
+              -63.34372,
+              -10.11113
+            ],
+            [
+              -63.29294,
+              -10.11
+            ],
+            [
+              -63.28057,
+              -10.11698
+            ],
+            [
+              -63.25682,
+              -10.10396
+            ],
+            [
+              -63.24809,
+              -10.0993
+            ],
+            [
+              -63.26918,
+              -10.07858
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-3",
+      "properties": {
+        "id": "rondonia-deforestation-poly-3",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 109.17,
+        "metric": "-87.3 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.8681,
+              -10.13159
+            ],
+            [
+              -62.87705,
+              -10.10771
+            ],
+            [
+              -62.87154,
+              -10.09007
+            ],
+            [
+              -62.88996,
+              -10.09516
+            ],
+            [
+              -62.92274,
+              -10.06201
+            ],
+            [
+              -62.96471,
+              -10.08429
+            ],
+            [
+              -62.98719,
+              -10.11134
+            ],
+            [
+              -62.98644,
+              -10.17103
+            ],
+            [
+              -62.97276,
+              -10.16774
+            ],
+            [
+              -62.98319,
+              -10.18108
+            ],
+            [
+              -62.91995,
+              -10.21019
+            ],
+            [
+              -62.8819,
+              -10.1878
+            ],
+            [
+              -62.8681,
+              -10.13159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-4",
+      "properties": {
+        "id": "rondonia-deforestation-poly-4",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 71.61,
+        "metric": "-57.3 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.13382,
+              -10.07434
+            ],
+            [
+              -63.12945,
+              -10.05425
+            ],
+            [
+              -63.18231,
+              -10.041
+            ],
+            [
+              -63.21238,
+              -10.04639
+            ],
+            [
+              -63.23686,
+              -10.08676
+            ],
+            [
+              -63.18415,
+              -10.10172
+            ],
+            [
+              -63.11334,
+              -10.09487
+            ],
+            [
+              -63.10826,
+              -10.08922
+            ],
+            [
+              -63.13382,
+              -10.07434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-5",
+      "properties": {
+        "id": "rondonia-deforestation-poly-5",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 156.11,
+        "metric": "-124.9 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.88848,
+              -10.14392
+            ],
+            [
+              -62.91998,
+              -10.09509
+            ],
+            [
+              -62.94435,
+              -10.11318
+            ],
+            [
+              -62.93691,
+              -10.09282
+            ],
+            [
+              -62.9407,
+              -10.08212
+            ],
+            [
+              -62.94778,
+              -10.09915
+            ],
+            [
+              -63.00933,
+              -10.12626
+            ],
+            [
+              -63.03515,
+              -10.15572
+            ],
+            [
+              -63.01845,
+              -10.18763
+            ],
+            [
+              -62.88848,
+              -10.14392
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-6",
+      "properties": {
+        "id": "rondonia-deforestation-poly-6",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 60.93,
+        "metric": "-48.7 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.95023,
+              -9.9115
+            ],
+            [
+              -62.98269,
+              -9.90043
+            ],
+            [
+              -62.96795,
+              -9.88695
+            ],
+            [
+              -63.04024,
+              -9.88597
+            ],
+            [
+              -63.03185,
+              -9.95161
+            ],
+            [
+              -63.00459,
+              -9.96019
+            ],
+            [
+              -62.98526,
+              -9.95856
+            ],
+            [
+              -62.96488,
+              -9.93358
+            ],
+            [
+              -62.97095,
+              -9.93066
+            ],
+            [
+              -62.96001,
+              -9.92993
+            ],
+            [
+              -62.9727,
+              -9.92394
+            ],
+            [
+              -62.95023,
+              -9.9115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-7",
+      "properties": {
+        "id": "rondonia-deforestation-poly-7",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 120.39,
+        "metric": "-96.3 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.98388,
+              -10.10472
+            ],
+            [
+              -63.03582,
+              -10.07288
+            ],
+            [
+              -63.05993,
+              -10.09751
+            ],
+            [
+              -63.06594,
+              -10.09736
+            ],
+            [
+              -63.05777,
+              -10.15908
+            ],
+            [
+              -63.03917,
+              -10.18073
+            ],
+            [
+              -63.03491,
+              -10.16489
+            ],
+            [
+              -62.97004,
+              -10.14656
+            ],
+            [
+              -62.98388,
+              -10.10472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rondonia-deforestation-poly-8",
+      "properties": {
+        "id": "rondonia-deforestation-poly-8",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 136.96,
+        "metric": "-109.6 dB HV drop",
+        "date_range": "2024-05-10 to 2024-10-05",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.047,
+              -9.96159
+            ],
+            [
+              -63.0569,
+              -9.97476
+            ],
+            [
+              -63.13967,
+              -9.979
+            ],
+            [
+              -63.12081,
+              -9.99688
+            ],
+            [
+              -63.14901,
+              -10.02831
+            ],
+            [
+              -63.07553,
+              -10.06824
+            ],
+            [
+              -63.02481,
+              -10.06613
+            ],
+            [
+              -63.047,
+              -9.96159
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

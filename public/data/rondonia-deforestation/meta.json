@@ -1,0 +1,78 @@
+{
+  "id": "rondonia-deforestation",
+  "title": "Amazon Rainforest Deforestation, Rond\u00f4nia",
+  "change_type": "vegetation",
+  "change_type_label": "Forest Canopy & Disturbance",
+  "location": "Rond\u00f4nia, Brazil",
+  "country": "Brazil",
+  "flag": "real",
+  "dates": {
+    "before": "2024-05-10",
+    "after": "2024-10-05"
+  },
+  "bbox": [
+    -63.5,
+    -10.35,
+    -62.7,
+    -9.65
+  ],
+  "center": [
+    -63.1,
+    -10.0
+  ],
+  "zoom": 9.6,
+  "source_products": [
+    "OPERA_L3_DIST-ALERT-HLS_T20LNQ_20240504T142719Z_20240509T014711Z_S2B_30_v1",
+    "OPERA_L3_DIST-ALERT-HLS_T20LMQ_20240504T142719Z_20240509T014559Z_S2B_30_v1"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
+  "headline": "L-band cross-polarization drop tracks 187 km\u00b2 of new fishbone deforestation corridors.",
+  "story": "Rond\u00f4nia in the southwestern Brazilian Amazon has historically experienced intensive 'fishbone' pattern clear-cutting along feeder roads. Dense triple-canopy rainforest scatters L-band radar waves heavily, producing high HV cross-polarization backscatter. When chainsaws and bulldozers strip the canopy away, volume scattering collapses immediately. Radar provides continuous alerts unaffected by equatorial cloud cover.",
+  "why_sar": "Why radar sees through cloud and night: The Amazon basin is covered by thick convective rain clouds for months at a time. NISAR's L-band radar (24 cm wavelength) passes directly through clouds to measure forest structure.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Intact Primary Rainforest Canopy",
+      "description": "L-band HV radar backscatter exhibits high uniform brightness from complex multi-layered canopy volume scattering.",
+      "center": [
+        -63.1,
+        -10.0
+      ],
+      "zoom": 9.6,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Corridor Logging & Encroachment",
+      "description": "New access trails cut into protected forest reserves show pronounced dark linear scars where trees were harvested.",
+      "center": [
+        -63.05,
+        -9.95
+      ],
+      "zoom": 10.3,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "HV Drop Disturbance Alert",
+      "description": "OPERA DIST-ALERT vector polygons outline patches with greater than 4 dB backscatter attenuation.",
+      "center": [
+        -63.18,
+        -10.05
+      ],
+      "zoom": 10.8,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Fishbone Deforestation Front",
+      "description": "Systematic perpendicular clearing lots convert rich biodiversity corridors into cattle pasture.",
+      "center": [
+        -63.25,
+        -9.85
+      ],
+      "zoom": 11.0,
+      "layer": "change"
+    }
+  ]
+}

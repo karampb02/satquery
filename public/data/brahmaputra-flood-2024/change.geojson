@@ -1,0 +1,471 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "brahmaputra-flood-2024",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-1",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-1",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 252.81,
+        "metric": "+252.81 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.70273,
+              26.48897
+            ],
+            [
+              92.65738,
+              26.54077
+            ],
+            [
+              92.5224,
+              26.54362
+            ],
+            [
+              92.49891,
+              26.50801
+            ],
+            [
+              92.45315,
+              26.47263
+            ],
+            [
+              92.4859,
+              26.47588
+            ],
+            [
+              92.54272,
+              26.44795
+            ],
+            [
+              92.58886,
+              26.42193
+            ],
+            [
+              92.70273,
+              26.48897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-2",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-2",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 126.63,
+        "metric": "+126.63 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.69034,
+              26.70235
+            ],
+            [
+              92.70321,
+              26.70537
+            ],
+            [
+              92.62845,
+              26.7281
+            ],
+            [
+              92.61198,
+              26.71788
+            ],
+            [
+              92.49468,
+              26.7048
+            ],
+            [
+              92.43852,
+              26.68273
+            ],
+            [
+              92.61165,
+              26.65982
+            ],
+            [
+              92.64039,
+              26.66128
+            ],
+            [
+              92.63913,
+              26.67351
+            ],
+            [
+              92.69034,
+              26.70235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-3",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-3",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 61.76,
+        "metric": "+61.76 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.1111,
+              26.66318
+            ],
+            [
+              93.12043,
+              26.67434
+            ],
+            [
+              93.09321,
+              26.67383
+            ],
+            [
+              93.0683,
+              26.68348
+            ],
+            [
+              93.04398,
+              26.62798
+            ],
+            [
+              93.06077,
+              26.6174
+            ],
+            [
+              93.06728,
+              26.60833
+            ],
+            [
+              93.12612,
+              26.64108
+            ],
+            [
+              93.1111,
+              26.66318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-4",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-4",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 193.08,
+        "metric": "+193.08 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.91162,
+              26.50402
+            ],
+            [
+              92.91678,
+              26.52258
+            ],
+            [
+              92.89185,
+              26.55123
+            ],
+            [
+              92.84116,
+              26.56418
+            ],
+            [
+              92.83146,
+              26.55845
+            ],
+            [
+              92.74268,
+              26.47879
+            ],
+            [
+              92.83209,
+              26.40773
+            ],
+            [
+              92.86659,
+              26.42831
+            ],
+            [
+              92.91162,
+              26.50402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-5",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-5",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 211.26,
+        "metric": "+211.26 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.59709,
+              26.38716
+            ],
+            [
+              92.60825,
+              26.34029
+            ],
+            [
+              92.61765,
+              26.28728
+            ],
+            [
+              92.66243,
+              26.28695
+            ],
+            [
+              92.69156,
+              26.27462
+            ],
+            [
+              92.70487,
+              26.31115
+            ],
+            [
+              92.71872,
+              26.30207
+            ],
+            [
+              92.59709,
+              26.38716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-6",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-6",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 168.93,
+        "metric": "+168.93 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.5458,
+              26.48788
+            ],
+            [
+              92.53053,
+              26.49017
+            ],
+            [
+              92.5371,
+              26.49298
+            ],
+            [
+              92.44006,
+              26.54844
+            ],
+            [
+              92.43504,
+              26.42669
+            ],
+            [
+              92.53475,
+              26.41674
+            ],
+            [
+              92.55148,
+              26.45459
+            ],
+            [
+              92.55014,
+              26.46257
+            ],
+            [
+              92.5458,
+              26.48788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-7",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-7",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 170.53,
+        "metric": "+170.53 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.57266,
+              26.34741
+            ],
+            [
+              92.56112,
+              26.36373
+            ],
+            [
+              92.4639,
+              26.38173
+            ],
+            [
+              92.40729,
+              26.38892
+            ],
+            [
+              92.38176,
+              26.3501
+            ],
+            [
+              92.35926,
+              26.33461
+            ],
+            [
+              92.37405,
+              26.29837
+            ],
+            [
+              92.4911,
+              26.29118
+            ],
+            [
+              92.54248,
+              26.30669
+            ],
+            [
+              92.57266,
+              26.34741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brahmaputra-flood-2024-poly-8",
+      "properties": {
+        "id": "brahmaputra-flood-2024-poly-8",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 207.05,
+        "metric": "+207.05 km\u00b2 flood extent",
+        "date_range": "2024-06-20 to 2024-07-14",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.58628,
+              26.70667
+            ],
+            [
+              92.51974,
+              26.70508
+            ],
+            [
+              92.47172,
+              26.63665
+            ],
+            [
+              92.4958,
+              26.64065
+            ],
+            [
+              92.48524,
+              26.62529
+            ],
+            [
+              92.52329,
+              26.63438
+            ],
+            [
+              92.56346,
+              26.62353
+            ],
+            [
+              92.6276,
+              26.61508
+            ],
+            [
+              92.6501,
+              26.64002
+            ],
+            [
+              92.58628,
+              26.70667
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

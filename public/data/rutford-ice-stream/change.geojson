@@ -1,0 +1,499 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "rutford-ice-stream",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-1",
+      "properties": {
+        "id": "rutford-ice-stream-poly-1",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 427.35,
+        "metric": "52.0 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.78832,
+              -78.10685
+            ],
+            [
+              -79.69384,
+              -78.08885
+            ],
+            [
+              -80.20376,
+              -78.09704
+            ],
+            [
+              -80.08834,
+              -78.12845
+            ],
+            [
+              -80.0745,
+              -78.14169
+            ],
+            [
+              -80.08268,
+              -78.16891
+            ],
+            [
+              -79.95963,
+              -78.18221
+            ],
+            [
+              -79.83951,
+              -78.14497
+            ],
+            [
+              -79.80413,
+              -78.13115
+            ],
+            [
+              -79.78832,
+              -78.10685
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-2",
+      "properties": {
+        "id": "rutford-ice-stream-poly-2",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 329.85,
+        "metric": "34.4 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.98151,
+              -78.12385
+            ],
+            [
+              -80.10299,
+              -78.10623
+            ],
+            [
+              -80.41532,
+              -78.11667
+            ],
+            [
+              -80.41667,
+              -78.11776
+            ],
+            [
+              -80.44995,
+              -78.13418
+            ],
+            [
+              -80.43726,
+              -78.14305
+            ],
+            [
+              -80.35636,
+              -78.14359
+            ],
+            [
+              -80.2974,
+              -78.17017
+            ],
+            [
+              -80.06079,
+              -78.17617
+            ],
+            [
+              -79.96363,
+              -78.14674
+            ],
+            [
+              -79.9425,
+              -78.14069
+            ],
+            [
+              -79.98151,
+              -78.12385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-3",
+      "properties": {
+        "id": "rutford-ice-stream-poly-3",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 49.46,
+        "metric": "59.9 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.78459,
+              -78.33918
+            ],
+            [
+              -79.79508,
+              -78.332
+            ],
+            [
+              -79.8351,
+              -78.32628
+            ],
+            [
+              -79.97144,
+              -78.34065
+            ],
+            [
+              -79.96032,
+              -78.3424
+            ],
+            [
+              -79.88929,
+              -78.35844
+            ],
+            [
+              -79.80874,
+              -78.34856
+            ],
+            [
+              -79.79921,
+              -78.34156
+            ],
+            [
+              -79.78459,
+              -78.33918
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-4",
+      "properties": {
+        "id": "rutford-ice-stream-poly-4",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 295.15,
+        "metric": "30.0 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.62634,
+              -78.23716
+            ],
+            [
+              -79.75472,
+              -78.21659
+            ],
+            [
+              -79.80794,
+              -78.2094
+            ],
+            [
+              -79.8751,
+              -78.27826
+            ],
+            [
+              -79.86373,
+              -78.27811
+            ],
+            [
+              -79.84748,
+              -78.28626
+            ],
+            [
+              -79.88556,
+              -78.30594
+            ],
+            [
+              -79.69251,
+              -78.30457
+            ],
+            [
+              -79.62874,
+              -78.31006
+            ],
+            [
+              -79.62634,
+              -78.23716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-5",
+      "properties": {
+        "id": "rutford-ice-stream-poly-5",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 163.32,
+        "metric": "19.4 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94386,
+              -78.27347
+            ],
+            [
+              -80.10895,
+              -78.26649
+            ],
+            [
+              -80.20158,
+              -78.26185
+            ],
+            [
+              -80.29199,
+              -78.27105
+            ],
+            [
+              -80.36382,
+              -78.27804
+            ],
+            [
+              -80.36944,
+              -78.28082
+            ],
+            [
+              -80.31409,
+              -78.28571
+            ],
+            [
+              -80.33094,
+              -78.29838
+            ],
+            [
+              -80.10252,
+              -78.29441
+            ],
+            [
+              -79.99764,
+              -78.29723
+            ],
+            [
+              -79.93335,
+              -78.2922
+            ],
+            [
+              -79.94386,
+              -78.27347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-6",
+      "properties": {
+        "id": "rutford-ice-stream-poly-6",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 218.43,
+        "metric": "53.9 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.13998,
+              -78.10147
+            ],
+            [
+              -80.19331,
+              -78.09271
+            ],
+            [
+              -80.27671,
+              -78.08153
+            ],
+            [
+              -80.42638,
+              -78.09886
+            ],
+            [
+              -80.32542,
+              -78.16799
+            ],
+            [
+              -80.29384,
+              -78.18333
+            ],
+            [
+              -80.20875,
+              -78.16664
+            ],
+            [
+              -80.13998,
+              -78.10147
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-7",
+      "properties": {
+        "id": "rutford-ice-stream-poly-7",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 189.06,
+        "metric": "45.5 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.92702,
+              -78.27602
+            ],
+            [
+              -80.15112,
+              -78.30296
+            ],
+            [
+              -80.19722,
+              -78.3068
+            ],
+            [
+              -80.15471,
+              -78.31344
+            ],
+            [
+              -80.1777,
+              -78.32807
+            ],
+            [
+              -79.90685,
+              -78.33387
+            ],
+            [
+              -79.72229,
+              -78.31907
+            ],
+            [
+              -79.80027,
+              -78.31551
+            ],
+            [
+              -79.92702,
+              -78.27602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rutford-ice-stream-poly-8",
+      "properties": {
+        "id": "rutford-ice-stream-poly-8",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 354.04,
+        "metric": "22.9 cm LOS offset",
+        "date_range": "2024-01-15 to 2024-03-20",
+        "sensor_platform": "NISAR_L2_GUNW_BETA_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.54445,
+              -78.32157
+            ],
+            [
+              -80.55898,
+              -78.30547
+            ],
+            [
+              -80.75319,
+              -78.30138
+            ],
+            [
+              -80.81028,
+              -78.30664
+            ],
+            [
+              -80.83782,
+              -78.30618
+            ],
+            [
+              -80.9022,
+              -78.31148
+            ],
+            [
+              -80.87038,
+              -78.3313
+            ],
+            [
+              -80.85775,
+              -78.376
+            ],
+            [
+              -80.771,
+              -78.36548
+            ],
+            [
+              -80.63623,
+              -78.37687
+            ],
+            [
+              -80.54445,
+              -78.32157
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

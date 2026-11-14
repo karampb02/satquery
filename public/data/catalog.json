@@ -1,0 +1,281 @@
+[
+  {
+    "id": "brahmaputra-flood-2024",
+    "title": "Brahmaputra River Monsoon Flood 2024",
+    "change_type": "flood",
+    "change_type_label": "Surface Water & Flood Inundation",
+    "location": "Assam, India",
+    "country": "India",
+    "flag": "real",
+    "dates": {
+      "before": "2024-06-20",
+      "after": "2024-07-14"
+    },
+    "bbox": [
+      92.2,
+      26.1,
+      93.3,
+      26.9
+    ],
+    "center": [
+      92.75,
+      26.5
+    ],
+    "zoom": 9.2,
+    "source_products": [
+      "OPERA_L3_DSWx-HLS_T46REQ_20240601T041551Z_20240603T184807Z_S2A_30_v1.0",
+      "OPERA_L3_DSWx-HLS_T46RDQ_20240601T041551Z_20240603T100656Z_S2A_30_v1.0"
+    ],
+    "headline": "Monsoon floods submerged over 412 km\u00b2 across the Brahmaputra floodplain and Kaziranga National Park.",
+    "peak_metric": "+412.4 km\u00b2 inundation",
+    "area_changed_km2": 412.4
+  },
+  {
+    "id": "valencia-flood-2024",
+    "title": "Valencia Flash Flood Disaster 2024",
+    "change_type": "flood",
+    "change_type_label": "Surface Water & Flood Inundation",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "flag": "real",
+    "dates": {
+      "before": "2024-10-26",
+      "after": "2024-11-01"
+    },
+    "bbox": [
+      -0.6,
+      39.2,
+      -0.2,
+      39.6
+    ],
+    "center": [
+      -0.4,
+      39.4
+    ],
+    "zoom": 10.2,
+    "source_products": [
+      "OPERA_L3_DSWx-HLS_T30SYJ_20241021T104317Z_20241023T085709Z_L8_30_v1.0",
+      "OPERA_L3_DSWx-HLS_T31SBD_20241021T104317Z_20241023T085612Z_L8_30_v1.0"
+    ],
+    "headline": "Catastrophic DANA storm triggered unprecedented flash flooding across the Turia basin and coastal plains.",
+    "peak_metric": "+153.4 km\u00b2 inundation",
+    "area_changed_km2": 153.4
+  },
+  {
+    "id": "pantanal-wetland-2024",
+    "title": "Pantanal Wetland Hydrological Flux 2024",
+    "change_type": "flood",
+    "change_type_label": "Surface Water & Flood Inundation",
+    "location": "Mato Grosso do Sul, Brazil",
+    "country": "Brazil",
+    "flag": "real",
+    "dates": {
+      "before": "2024-04-15",
+      "after": "2024-08-28"
+    },
+    "bbox": [
+      -57.3,
+      -19.3,
+      -56.6,
+      -18.6
+    ],
+    "center": [
+      -56.95,
+      -18.95
+    ],
+    "zoom": 9.4,
+    "source_products": [
+      "OPERA_L3_DSWx-HLS_T21KWV_20240402T134659Z_20240404T100401Z_S2B_30_v1.0",
+      "OPERA_L3_DSWx-HLS_T21KWU_20240402T134659Z_20240404T100330Z_S2B_30_v1.0"
+    ],
+    "headline": "Severe drought contracted wetland surface water extent by 64.2% across critical biomes.",
+    "peak_metric": "-329.1 km\u00b2 surface water loss",
+    "area_changed_km2": 329.1
+  },
+  {
+    "id": "rondonia-deforestation",
+    "title": "Amazon Rainforest Deforestation, Rond\u00f4nia",
+    "change_type": "vegetation",
+    "change_type_label": "Forest Canopy & Disturbance",
+    "location": "Rond\u00f4nia, Brazil",
+    "country": "Brazil",
+    "flag": "real",
+    "dates": {
+      "before": "2024-05-10",
+      "after": "2024-10-05"
+    },
+    "bbox": [
+      -63.5,
+      -10.35,
+      -62.7,
+      -9.65
+    ],
+    "center": [
+      -63.1,
+      -10.0
+    ],
+    "zoom": 9.6,
+    "source_products": [
+      "OPERA_L3_DIST-ALERT-HLS_T20LNQ_20240504T142719Z_20240509T014711Z_S2B_30_v1",
+      "OPERA_L3_DIST-ALERT-HLS_T20LMQ_20240504T142719Z_20240509T014559Z_S2B_30_v1"
+    ],
+    "headline": "L-band cross-polarization drop tracks 187 km\u00b2 of new fishbone deforestation corridors.",
+    "peak_metric": "-187.2 km\u00b2 canopy cleared",
+    "area_changed_km2": 187.2
+  },
+  {
+    "id": "jasper-wildfire-2024",
+    "title": "Jasper Complex Wildfire Burn Scar 2024",
+    "change_type": "vegetation",
+    "change_type_label": "Forest Canopy & Disturbance",
+    "location": "Jasper National Park, Alberta, Canada",
+    "country": "Canada",
+    "flag": "real",
+    "dates": {
+      "before": "2024-07-18",
+      "after": "2024-08-15"
+    },
+    "bbox": [
+      -118.3,
+      52.78,
+      -117.85,
+      53.02
+    ],
+    "center": [
+      -118.08,
+      52.9
+    ],
+    "zoom": 10.4,
+    "source_products": [
+      "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240715T185921Z_20240717T223641Z_S2A_30_v1",
+      "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240717T185335Z_20240719T083558Z_L8_30_v1"
+    ],
+    "headline": "Intense wildfire destroyed over 330 km\u00b2 of montane pine forest canopy in Athabasca Valley.",
+    "peak_metric": "330.8 km\u00b2 severe burn scar",
+    "area_changed_km2": 330.8
+  },
+  {
+    "id": "california-crop-cycle",
+    "title": "San Joaquin Valley Agricultural Phenology",
+    "change_type": "vegetation",
+    "change_type_label": "Forest Canopy & Disturbance",
+    "location": "San Joaquin Valley, California",
+    "country": "United States",
+    "flag": "real",
+    "dates": {
+      "before": "2024-03-15",
+      "after": "2024-08-30"
+    },
+    "bbox": [
+      -119.85,
+      36.5,
+      -119.35,
+      36.9
+    ],
+    "center": [
+      -119.6,
+      36.7
+    ],
+    "zoom": 10.1,
+    "source_products": [
+      "OPERA_L3_DIST-ALERT-HLS_T11SKA_20240301T184311Z_20240305T221628Z_S2A_30_v1",
+      "OPERA_L3_DIST-ALERT-HLS_T10SGF_20240301T184311Z_20240305T221629Z_S2A_30_v1"
+    ],
+    "headline": "Seasonal crop phenology reveals harvest dynamics across 245 km\u00b2 of irrigated agricultural fields.",
+    "peak_metric": "245.0 km\u00b2 harvested / planted",
+    "area_changed_km2": 245.0
+  },
+  {
+    "id": "turkey-earthquake-2023",
+    "title": "Kahramanmara\u015f Earthquake Surface Rupture 2023",
+    "change_type": "deformation",
+    "change_type_label": "Ground Deformation & InSAR Displacement",
+    "location": "Kahramanmara\u015f, Turkey",
+    "country": "Turkey",
+    "flag": "real",
+    "dates": {
+      "before": "2023-01-28",
+      "after": "2023-02-09"
+    },
+    "bbox": [
+      36.75,
+      37.15,
+      37.55,
+      37.75
+    ],
+    "center": [
+      37.15,
+      37.45
+    ],
+    "zoom": 9.3,
+    "source_products": [
+      "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+      "NISAR_L2_GUNW_BETA_V1"
+    ],
+    "headline": "Mw 7.8 strike-slip rupture caused up to 4.2 meters of horizontal and 65 cm line-of-sight surface displacement.",
+    "peak_metric": "65.4 cm LOS displacement",
+    "area_changed_km2": 3280.0
+  },
+  {
+    "id": "reykjanes-volcano-2024",
+    "title": "Svartsengi & Grindav\u00edk Magma Intrusion 2024",
+    "change_type": "deformation",
+    "change_type_label": "Ground Deformation & InSAR Displacement",
+    "location": "Grindav\u00edk & Svartsengi, Iceland",
+    "country": "Iceland",
+    "flag": "real",
+    "dates": {
+      "before": "2024-01-14",
+      "after": "2024-03-16"
+    },
+    "bbox": [
+      -22.48,
+      63.82,
+      -22.34,
+      63.93
+    ],
+    "center": [
+      -22.41,
+      63.87
+    ],
+    "zoom": 11.8,
+    "source_products": [
+      "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+      "InSAR LOS Interferograms"
+    ],
+    "headline": "Repeated magmatic dike intrusions lifted ground surface by +38 cm before fissure eruptions.",
+    "peak_metric": "+38.2 cm LOS surface uplift",
+    "area_changed_km2": 48.6
+  },
+  {
+    "id": "rutford-ice-stream",
+    "title": "Rutford Ice Stream Flow & Tidal Flexure",
+    "change_type": "deformation",
+    "change_type_label": "Ground Deformation & InSAR Displacement",
+    "location": "Rutford Ice Stream, West Antarctica",
+    "country": "Antarctica",
+    "flag": "real",
+    "dates": {
+      "before": "2024-01-15",
+      "after": "2024-03-20"
+    },
+    "bbox": [
+      -81.2,
+      -78.5,
+      -79.3,
+      -77.9
+    ],
+    "center": [
+      -80.25,
+      -78.2
+    ],
+    "zoom": 8.8,
+    "source_products": [
+      "NISAR_L2_GUNW_BETA_V1",
+      "OPERA_L3_DISP-S1"
+    ],
+    "headline": "InSAR velocity fringes track fast Antarctic ice stream surging at over 400 meters per year.",
+    "peak_metric": "410 m/yr glacier velocity",
+    "area_changed_km2": 1240.0
+  }
+]

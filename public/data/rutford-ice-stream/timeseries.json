@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-01-15",
+    "value": 395.0,
+    "label": "Spring Tide Acceleration"
+  },
+  {
+    "date": "2024-01-30",
+    "value": 402.4,
+    "label": "Tidal Cycle Peak"
+  },
+  {
+    "date": "2024-02-15",
+    "value": 398.1,
+    "label": "Mid-Summer Flow"
+  },
+  {
+    "date": "2024-03-01",
+    "value": 410.5,
+    "label": "Grounding Zone Flexure"
+  },
+  {
+    "date": "2024-03-20",
+    "value": 405.0,
+    "label": "Late Season Flow"
+  }
+]

@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "jasper-wildfire-2024",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-1",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-1",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 28.7,
+        "metric": "-23.0 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.12887,
+              52.97117
+            ],
+            [
+              -118.13761,
+              52.97217
+            ],
+            [
+              -118.15979,
+              52.99252
+            ],
+            [
+              -118.16297,
+              52.9947
+            ],
+            [
+              -118.16307,
+              52.99308
+            ],
+            [
+              -118.16678,
+              52.99559
+            ],
+            [
+              -118.16665,
+              52.9904
+            ],
+            [
+              -118.16972,
+              52.98848
+            ],
+            [
+              -118.19189,
+              52.96585
+            ],
+            [
+              -118.13881,
+              52.94748
+            ],
+            [
+              -118.12887,
+              52.97117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-2",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-2",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 15.84,
+        "metric": "-12.7 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.08964,
+              52.87955
+            ],
+            [
+              -118.09891,
+              52.88343
+            ],
+            [
+              -118.11616,
+              52.87285
+            ],
+            [
+              -118.11157,
+              52.86346
+            ],
+            [
+              -118.12286,
+              52.86517
+            ],
+            [
+              -118.11297,
+              52.85374
+            ],
+            [
+              -118.10796,
+              52.84634
+            ],
+            [
+              -118.11197,
+              52.83823
+            ],
+            [
+              -118.10172,
+              52.84224
+            ],
+            [
+              -118.10553,
+              52.83399
+            ],
+            [
+              -118.09189,
+              52.83069
+            ],
+            [
+              -118.07827,
+              52.84144
+            ],
+            [
+              -118.08964,
+              52.87955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-3",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-3",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 6.7,
+        "metric": "-5.4 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.04562,
+              52.87292
+            ],
+            [
+              -118.05341,
+              52.87529
+            ],
+            [
+              -118.06125,
+              52.87709
+            ],
+            [
+              -118.06399,
+              52.87692
+            ],
+            [
+              -118.06635,
+              52.87962
+            ],
+            [
+              -118.07318,
+              52.87694
+            ],
+            [
+              -118.08527,
+              52.87645
+            ],
+            [
+              -118.08969,
+              52.87572
+            ],
+            [
+              -118.04516,
+              52.8619
+            ],
+            [
+              -118.04562,
+              52.87292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-4",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-4",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 17.52,
+        "metric": "-14.0 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.97517,
+              52.9136
+            ],
+            [
+              -117.99087,
+              52.91204
+            ],
+            [
+              -118.00178,
+              52.91203
+            ],
+            [
+              -118.00498,
+              52.91192
+            ],
+            [
+              -118.03907,
+              52.91628
+            ],
+            [
+              -118.05309,
+              52.90907
+            ],
+            [
+              -118.05185,
+              52.90026
+            ],
+            [
+              -118.02129,
+              52.88632
+            ],
+            [
+              -117.9997,
+              52.89329
+            ],
+            [
+              -117.98551,
+              52.89223
+            ],
+            [
+              -117.99119,
+              52.8965
+            ],
+            [
+              -117.97734,
+              52.9008
+            ],
+            [
+              -117.97517,
+              52.9136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-5",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-5",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 9.5,
+        "metric": "-7.6 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.94521,
+              52.84747
+            ],
+            [
+              -117.94653,
+              52.85048
+            ],
+            [
+              -117.94788,
+              52.85029
+            ],
+            [
+              -117.96026,
+              52.85155
+            ],
+            [
+              -117.96167,
+              52.85193
+            ],
+            [
+              -117.99469,
+              52.84458
+            ],
+            [
+              -117.99777,
+              52.84437
+            ],
+            [
+              -117.94736,
+              52.84388
+            ],
+            [
+              -117.94521,
+              52.84747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-6",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-6",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 27.23,
+        "metric": "-21.8 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.94756,
+              52.85755
+            ],
+            [
+              -117.96924,
+              52.86413
+            ],
+            [
+              -118.0033,
+              52.86117
+            ],
+            [
+              -118.01135,
+              52.85618
+            ],
+            [
+              -118.01204,
+              52.85542
+            ],
+            [
+              -118.00416,
+              52.83949
+            ],
+            [
+              -117.99685,
+              52.83276
+            ],
+            [
+              -117.99086,
+              52.82842
+            ],
+            [
+              -117.94171,
+              52.83854
+            ],
+            [
+              -117.94756,
+              52.85755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-7",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-7",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 14.95,
+        "metric": "-12.0 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.95483,
+              52.88081
+            ],
+            [
+              -117.97955,
+              52.89173
+            ],
+            [
+              -117.97846,
+              52.88759
+            ],
+            [
+              -117.97767,
+              52.88629
+            ],
+            [
+              -117.98729,
+              52.88131
+            ],
+            [
+              -117.99078,
+              52.86645
+            ],
+            [
+              -117.98883,
+              52.86115
+            ],
+            [
+              -117.96017,
+              52.85437
+            ],
+            [
+              -117.95371,
+              52.87448
+            ],
+            [
+              -117.95483,
+              52.88081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jasper-wildfire-2024-poly-8",
+      "properties": {
+        "id": "jasper-wildfire-2024-poly-8",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 19.22,
+        "metric": "-15.4 dB HV drop",
+        "date_range": "2024-07-18 to 2024-08-15",
+        "sensor_platform": "OPERA_L3_DIST-ALERT-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.98415,
+              52.86993
+            ],
+            [
+              -118.01281,
+              52.883
+            ],
+            [
+              -118.03225,
+              52.88833
+            ],
+            [
+              -118.03871,
+              52.88713
+            ],
+            [
+              -118.03797,
+              52.88158
+            ],
+            [
+              -118.00807,
+              52.8526
+            ],
+            [
+              -117.98933,
+              52.86097
+            ],
+            [
+              -117.98415,
+              52.86993
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

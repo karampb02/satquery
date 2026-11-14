@@ -1,0 +1,78 @@
+{
+  "id": "turkey-earthquake-2023",
+  "title": "Kahramanmara\u015f Earthquake Surface Rupture 2023",
+  "change_type": "deformation",
+  "change_type_label": "Ground Deformation & InSAR Displacement",
+  "location": "Kahramanmara\u015f, Turkey",
+  "country": "Turkey",
+  "flag": "real",
+  "dates": {
+    "before": "2023-01-28",
+    "after": "2023-02-09"
+  },
+  "bbox": [
+    36.75,
+    37.15,
+    37.55,
+    37.75
+  ],
+  "center": [
+    37.15,
+    37.45
+  ],
+  "zoom": 9.3,
+  "source_products": [
+    "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+    "NISAR_L2_GUNW_BETA_V1"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata",
+  "headline": "Mw 7.8 strike-slip rupture caused up to 4.2 meters of horizontal and 65 cm line-of-sight surface displacement.",
+  "story": "On February 6, 2023, two catastrophic earthquakes (Mw 7.8 and Mw 7.5) struck southeastern Turkey and northern Syria. The ruptures occurred along the East Anatolian Fault and \u00c7ardak Fault zones. Radar interferometry (InSAR) measured the crustal displacement by comparing the phase of radar waves before and after the event. Dense interference fringes document dramatic fault slip and ground deformation across thousands of square kilometers.",
+  "why_sar": "Why radar sees through cloud and night: InSAR measures subtle millimeter-to-centimeter phase changes in radar wave round-trip travel time, operating day or night and penetrating winter snow storms.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "East Anatolian Fault Baseline",
+      "description": "Pre-earthquake topography and settlements along the tectonic boundary between the Anatolian and Arabian plates.",
+      "center": [
+        37.15,
+        37.45
+      ],
+      "zoom": 9.3,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Coseismic InSAR Interferogram",
+      "description": "Interferometric fringes compress tightly along the fault trace, recording opposing crustal motion on opposite sides of the fault.",
+      "center": [
+        37.12,
+        37.42
+      ],
+      "zoom": 9.8,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Line-of-Sight Displacement Gradient",
+      "description": "Unwrapped phase colormap maps up to +65 cm displacement towards the satellite and -55 cm away from the satellite.",
+      "center": [
+        37.2,
+        37.48
+      ],
+      "zoom": 10.4,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Surface Rupture Trace",
+      "description": "Sharp discontinuity line where fault slip broke through the ground surface, tearing highways and railway tracks.",
+      "center": [
+        37.1,
+        37.38
+      ],
+      "zoom": 10.9,
+      "layer": "change"
+    }
+  ]
+}

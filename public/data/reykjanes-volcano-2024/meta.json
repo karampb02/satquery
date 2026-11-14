@@ -1,0 +1,78 @@
+{
+  "id": "reykjanes-volcano-2024",
+  "title": "Svartsengi & Grindav\u00edk Magma Intrusion 2024",
+  "change_type": "deformation",
+  "change_type_label": "Ground Deformation & InSAR Displacement",
+  "location": "Grindav\u00edk & Svartsengi, Iceland",
+  "country": "Iceland",
+  "flag": "real",
+  "dates": {
+    "before": "2024-01-14",
+    "after": "2024-03-16"
+  },
+  "bbox": [
+    -22.48,
+    63.82,
+    -22.34,
+    63.93
+  ],
+  "center": [
+    -22.41,
+    63.87
+  ],
+  "zoom": 11.8,
+  "source_products": [
+    "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+    "InSAR LOS Interferograms"
+  ],
+  "daac": "ASF DAAC / NASA Earthdata",
+  "headline": "Repeated magmatic dike intrusions lifted ground surface by +38 cm before fissure eruptions.",
+  "story": "Along Iceland's Reykjanes volcanic belt, intense magmatic dike propagation and magma chamber inflation beneath the Svartsengi geothermal power plant drove extraordinary ground deformation throughout early 2024. InSAR interferograms captured rapid ground inflation of up to 1 cm per day, followed by sudden subsidence and fissure eruptions that endangered the town of Grindav\u00edk.",
+  "why_sar": "Why radar sees through cloud and night: Arctic winter weather brings constant blizzards, cloud cover, and polar twilight; radar satellites reliably provide sub-centimeter displacement updates every few days.",
+  "story_steps": [
+    {
+      "step": 1,
+      "title": "Svartsengi Geothermal Field Baseline",
+      "description": "Lava fields and infrastructure near Grindav\u00edk and the Blue Lagoon prior to unrest.",
+      "center": [
+        -22.41,
+        63.87
+      ],
+      "zoom": 11.8,
+      "layer": "before"
+    },
+    {
+      "step": 2,
+      "title": "Concentric Magma Inflation Fringes",
+      "description": "InSAR interference fringes show an elliptical dome centered on the Svartsengi magma reservoir 4-5 km deep.",
+      "center": [
+        -22.42,
+        63.88
+      ],
+      "zoom": 12.2,
+      "layer": "after"
+    },
+    {
+      "step": 3,
+      "title": "Grindav\u00edk Grabent Subsidence",
+      "description": "While Svartsengi inflated, the ground directly above the magma dike subsided over 1 meter inside Grindav\u00edk town.",
+      "center": [
+        -22.43,
+        63.84
+      ],
+      "zoom": 12.6,
+      "layer": "change"
+    },
+    {
+      "step": 4,
+      "title": "Protective Earthen Berm Defense",
+      "description": "InSAR deformation contours guided Icelandic civil defense engineers constructing giant defensive barriers.",
+      "center": [
+        -22.4,
+        63.86
+      ],
+      "zoom": 12.8,
+      "layer": "change"
+    }
+  ]
+}

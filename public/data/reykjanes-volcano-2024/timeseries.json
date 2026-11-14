@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-01-01",
+    "value": 4.2,
+    "label": "Background Inflation"
+  },
+  {
+    "date": "2024-01-14",
+    "value": 18.5,
+    "label": "Grindav\u00edk Fissure Eruption"
+  },
+  {
+    "date": "2024-02-08",
+    "value": 26.8,
+    "label": "Pipeline Rupture Surge"
+  },
+  {
+    "date": "2024-03-02",
+    "value": 35.1,
+    "label": "Accelerated Inflation"
+  },
+  {
+    "date": "2024-03-16",
+    "value": 38.2,
+    "label": "Peak Uplift before Eruption"
+  }
+]

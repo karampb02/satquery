@@ -1,0 +1,495 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "turkey-earthquake-2023",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-1",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-1",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 141.68,
+        "metric": "37.2 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.43325,
+              37.39456
+            ],
+            [
+              37.34189,
+              37.41551
+            ],
+            [
+              37.32628,
+              37.42308
+            ],
+            [
+              37.32011,
+              37.41902
+            ],
+            [
+              37.31004,
+              37.39691
+            ],
+            [
+              37.31572,
+              37.38581
+            ],
+            [
+              37.30274,
+              37.38538
+            ],
+            [
+              37.31753,
+              37.33004
+            ],
+            [
+              37.31485,
+              37.32451
+            ],
+            [
+              37.34644,
+              37.32728
+            ],
+            [
+              37.36517,
+              37.29325
+            ],
+            [
+              37.37635,
+              37.31826
+            ],
+            [
+              37.43325,
+              37.39456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-2",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-2",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 78.6,
+        "metric": "41.8 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.17586,
+              37.39498
+            ],
+            [
+              37.16873,
+              37.38825
+            ],
+            [
+              37.18069,
+              37.37741
+            ],
+            [
+              37.17462,
+              37.36807
+            ],
+            [
+              37.17322,
+              37.34893
+            ],
+            [
+              37.22241,
+              37.34145
+            ],
+            [
+              37.22687,
+              37.35196
+            ],
+            [
+              37.17586,
+              37.39498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-3",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-3",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 39.22,
+        "metric": "37.3 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.25249,
+              37.47646
+            ],
+            [
+              37.22681,
+              37.48092
+            ],
+            [
+              37.21656,
+              37.47443
+            ],
+            [
+              37.20456,
+              37.4036
+            ],
+            [
+              37.22958,
+              37.4065
+            ],
+            [
+              37.23429,
+              37.40956
+            ],
+            [
+              37.24904,
+              37.42188
+            ],
+            [
+              37.25561,
+              37.41652
+            ],
+            [
+              37.25249,
+              37.47646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-4",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-4",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 91.43,
+        "metric": "21.7 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.08506,
+              37.56896
+            ],
+            [
+              37.06175,
+              37.50398
+            ],
+            [
+              37.07391,
+              37.49986
+            ],
+            [
+              37.07877,
+              37.50076
+            ],
+            [
+              37.06257,
+              37.48061
+            ],
+            [
+              37.13468,
+              37.48562
+            ],
+            [
+              37.17671,
+              37.50917
+            ],
+            [
+              37.08506,
+              37.56896
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-5",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-5",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 73.08,
+        "metric": "42.1 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.10442,
+              37.50704
+            ],
+            [
+              37.09139,
+              37.52538
+            ],
+            [
+              37.08615,
+              37.53768
+            ],
+            [
+              37.0199,
+              37.53747
+            ],
+            [
+              37.08831,
+              37.48465
+            ],
+            [
+              37.10604,
+              37.49357
+            ],
+            [
+              37.11541,
+              37.49228
+            ],
+            [
+              37.10442,
+              37.50704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-6",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-6",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 51.79,
+        "metric": "43.3 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.38319,
+              37.29819
+            ],
+            [
+              37.379,
+              37.30446
+            ],
+            [
+              37.36307,
+              37.3067
+            ],
+            [
+              37.34796,
+              37.30578
+            ],
+            [
+              37.31212,
+              37.31045
+            ],
+            [
+              37.28312,
+              37.31115
+            ],
+            [
+              37.26555,
+              37.2974
+            ],
+            [
+              37.28695,
+              37.29237
+            ],
+            [
+              37.3595,
+              37.26836
+            ],
+            [
+              37.39547,
+              37.28624
+            ],
+            [
+              37.38333,
+              37.28655
+            ],
+            [
+              37.38319,
+              37.29819
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-7",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-7",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 111.99,
+        "metric": "54.5 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.33587,
+              37.48476
+            ],
+            [
+              37.30709,
+              37.50518
+            ],
+            [
+              37.29385,
+              37.5021
+            ],
+            [
+              37.28249,
+              37.50311
+            ],
+            [
+              37.25382,
+              37.50396
+            ],
+            [
+              37.24457,
+              37.5216
+            ],
+            [
+              37.24274,
+              37.50453
+            ],
+            [
+              37.16899,
+              37.47354
+            ],
+            [
+              37.28279,
+              37.42664
+            ],
+            [
+              37.29202,
+              37.43399
+            ],
+            [
+              37.33821,
+              37.43602
+            ],
+            [
+              37.31601,
+              37.46005
+            ],
+            [
+              37.33587,
+              37.48476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turkey-earthquake-2023-poly-8",
+      "properties": {
+        "id": "turkey-earthquake-2023-poly-8",
+        "class": "Surface Displacement",
+        "severity": "Fault Rupture Slip",
+        "area_km2": 51.24,
+        "metric": "33.4 cm LOS offset",
+        "date_range": "2023-01-28 to 2023-02-09",
+        "sensor_platform": "OPERA_L3_DISP-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.2485,
+              37.48826
+            ],
+            [
+              37.24681,
+              37.51675
+            ],
+            [
+              37.1841,
+              37.43398
+            ],
+            [
+              37.18161,
+              37.43229
+            ],
+            [
+              37.24344,
+              37.39317
+            ],
+            [
+              37.24653,
+              37.44423
+            ],
+            [
+              37.26183,
+              37.43922
+            ],
+            [
+              37.25856,
+              37.44239
+            ],
+            [
+              37.2485,
+              37.48826
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

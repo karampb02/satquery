@@ -1,0 +1,475 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "pantanal-wetland-2024",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-1",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-1",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 60.62,
+        "metric": "+60.62 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.99047,
+              -19.05962
+            ],
+            [
+              -56.99139,
+              -19.04692
+            ],
+            [
+              -56.9939,
+              -19.052
+            ],
+            [
+              -57.03103,
+              -19.07218
+            ],
+            [
+              -57.00734,
+              -19.14787
+            ],
+            [
+              -56.94876,
+              -19.12547
+            ],
+            [
+              -56.95529,
+              -19.11459
+            ],
+            [
+              -56.99047,
+              -19.05962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-2",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-2",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 79.96,
+        "metric": "+79.96 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.96388,
+              -19.0674
+            ],
+            [
+              -56.97553,
+              -19.07043
+            ],
+            [
+              -56.96826,
+              -19.0545
+            ],
+            [
+              -57.01707,
+              -19.03966
+            ],
+            [
+              -57.02287,
+              -19.06358
+            ],
+            [
+              -57.05556,
+              -19.08427
+            ],
+            [
+              -56.97258,
+              -19.12156
+            ],
+            [
+              -56.96388,
+              -19.0674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-3",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-3",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 92.7,
+        "metric": "+92.7 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.7503,
+              -18.95636
+            ],
+            [
+              -56.81605,
+              -18.93964
+            ],
+            [
+              -56.8988,
+              -18.94542
+            ],
+            [
+              -56.8811,
+              -18.96614
+            ],
+            [
+              -56.87548,
+              -18.9751
+            ],
+            [
+              -56.89799,
+              -18.99492
+            ],
+            [
+              -56.83649,
+              -19.0175
+            ],
+            [
+              -56.7503,
+              -18.95636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-4",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-4",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 33.86,
+        "metric": "+33.86 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.10773,
+              -18.87196
+            ],
+            [
+              -57.11182,
+              -18.87949
+            ],
+            [
+              -57.11327,
+              -18.88215
+            ],
+            [
+              -57.11924,
+              -18.88237
+            ],
+            [
+              -57.13124,
+              -18.88728
+            ],
+            [
+              -57.13628,
+              -18.91616
+            ],
+            [
+              -57.13272,
+              -18.95172
+            ],
+            [
+              -57.09109,
+              -18.966
+            ],
+            [
+              -57.10773,
+              -18.87196
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-5",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-5",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 44.39,
+        "metric": "+44.39 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.01857,
+              -19.04623
+            ],
+            [
+              -57.05036,
+              -19.03415
+            ],
+            [
+              -57.05341,
+              -19.03181
+            ],
+            [
+              -57.15486,
+              -19.04301
+            ],
+            [
+              -57.1086,
+              -19.06285
+            ],
+            [
+              -57.1103,
+              -19.0678
+            ],
+            [
+              -57.08226,
+              -19.06247
+            ],
+            [
+              -57.07731,
+              -19.06552
+            ],
+            [
+              -57.02899,
+              -19.07088
+            ],
+            [
+              -57.03189,
+              -19.06635
+            ],
+            [
+              -56.99589,
+              -19.0593
+            ],
+            [
+              -57.02375,
+              -19.04971
+            ],
+            [
+              -57.01857,
+              -19.04623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-6",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-6",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 70.83,
+        "metric": "+70.83 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.1405,
+              -18.75913
+            ],
+            [
+              -57.20874,
+              -18.76296
+            ],
+            [
+              -57.1883,
+              -18.77329
+            ],
+            [
+              -57.22011,
+              -18.78078
+            ],
+            [
+              -57.14838,
+              -18.79265
+            ],
+            [
+              -57.03607,
+              -18.78357
+            ],
+            [
+              -57.03849,
+              -18.78063
+            ],
+            [
+              -57.1405,
+              -18.75913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-7",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-7",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 82.0,
+        "metric": "+82.0 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.95872,
+              -18.73637
+            ],
+            [
+              -57.00326,
+              -18.76783
+            ],
+            [
+              -56.99408,
+              -18.77604
+            ],
+            [
+              -56.99448,
+              -18.78067
+            ],
+            [
+              -56.97206,
+              -18.79024
+            ],
+            [
+              -56.87851,
+              -18.78927
+            ],
+            [
+              -56.88645,
+              -18.78078
+            ],
+            [
+              -56.86513,
+              -18.77722
+            ],
+            [
+              -56.95872,
+              -18.73637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pantanal-wetland-2024-poly-8",
+      "properties": {
+        "id": "pantanal-wetland-2024-poly-8",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 63.82,
+        "metric": "+63.82 km\u00b2 flood extent",
+        "date_range": "2024-04-15 to 2024-08-28",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.97955,
+              -18.9748
+            ],
+            [
+              -56.99911,
+              -18.95856
+            ],
+            [
+              -57.0615,
+              -18.96764
+            ],
+            [
+              -57.05172,
+              -18.98002
+            ],
+            [
+              -57.04531,
+              -19.02751
+            ],
+            [
+              -57.01544,
+              -19.02603
+            ],
+            [
+              -57.00591,
+              -19.01988
+            ],
+            [
+              -57.0031,
+              -19.01732
+            ],
+            [
+              -56.96153,
+              -19.01827
+            ],
+            [
+              -56.96911,
+              -19.01077
+            ],
+            [
+              -56.97032,
+              -18.99973
+            ],
+            [
+              -56.97955,
+              -18.9748
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

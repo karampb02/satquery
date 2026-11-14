@@ -1,0 +1,503 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "valencia-flood-2024",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-1",
+      "properties": {
+        "id": "valencia-flood-2024-poly-1",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 20.62,
+        "metric": "+20.62 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.47091,
+              39.30495
+            ],
+            [
+              -0.52296,
+              39.30592
+            ],
+            [
+              -0.54315,
+              39.30391
+            ],
+            [
+              -0.5495,
+              39.30385
+            ],
+            [
+              -0.53127,
+              39.29033
+            ],
+            [
+              -0.53182,
+              39.28807
+            ],
+            [
+              -0.51808,
+              39.28844
+            ],
+            [
+              -0.51489,
+              39.28204
+            ],
+            [
+              -0.51402,
+              39.28187
+            ],
+            [
+              -0.49012,
+              39.29229
+            ],
+            [
+              -0.48964,
+              39.29242
+            ],
+            [
+              -0.47091,
+              39.30495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-2",
+      "properties": {
+        "id": "valencia-flood-2024-poly-2",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 31.29,
+        "metric": "+31.29 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.27249,
+              39.47622
+            ],
+            [
+              -0.27492,
+              39.49013
+            ],
+            [
+              -0.31938,
+              39.50439
+            ],
+            [
+              -0.34114,
+              39.49992
+            ],
+            [
+              -0.33469,
+              39.49221
+            ],
+            [
+              -0.31604,
+              39.44682
+            ],
+            [
+              -0.31094,
+              39.45031
+            ],
+            [
+              -0.3068,
+              39.45058
+            ],
+            [
+              -0.29382,
+              39.4591
+            ],
+            [
+              -0.27249,
+              39.47622
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-3",
+      "properties": {
+        "id": "valencia-flood-2024-poly-3",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 14.7,
+        "metric": "+14.7 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.34495,
+              39.33366
+            ],
+            [
+              -0.37284,
+              39.3376
+            ],
+            [
+              -0.36999,
+              39.30341
+            ],
+            [
+              -0.36432,
+              39.29919
+            ],
+            [
+              -0.36327,
+              39.30414
+            ],
+            [
+              -0.3575,
+              39.30518
+            ],
+            [
+              -0.35192,
+              39.30022
+            ],
+            [
+              -0.34495,
+              39.33366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-4",
+      "properties": {
+        "id": "valencia-flood-2024-poly-4",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 22.88,
+        "metric": "+22.88 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.33166,
+              39.50634
+            ],
+            [
+              -0.33336,
+              39.51577
+            ],
+            [
+              -0.39213,
+              39.51443
+            ],
+            [
+              -0.4019,
+              39.50158
+            ],
+            [
+              -0.39684,
+              39.49807
+            ],
+            [
+              -0.39162,
+              39.49562
+            ],
+            [
+              -0.40549,
+              39.49389
+            ],
+            [
+              -0.40877,
+              39.4935
+            ],
+            [
+              -0.37381,
+              39.47872
+            ],
+            [
+              -0.36675,
+              39.47799
+            ],
+            [
+              -0.33623,
+              39.49757
+            ],
+            [
+              -0.33166,
+              39.50634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-5",
+      "properties": {
+        "id": "valencia-flood-2024-poly-5",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 37.28,
+        "metric": "+37.28 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.27854,
+              39.49103
+            ],
+            [
+              -0.29088,
+              39.49741
+            ],
+            [
+              -0.32379,
+              39.49495
+            ],
+            [
+              -0.31744,
+              39.48312
+            ],
+            [
+              -0.32567,
+              39.48169
+            ],
+            [
+              -0.31816,
+              39.43762
+            ],
+            [
+              -0.30318,
+              39.43781
+            ],
+            [
+              -0.26951,
+              39.44924
+            ],
+            [
+              -0.27854,
+              39.49103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-6",
+      "properties": {
+        "id": "valencia-flood-2024-poly-6",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 66.24,
+        "metric": "+66.24 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.41317,
+              39.4927
+            ],
+            [
+              -0.40958,
+              39.51538
+            ],
+            [
+              -0.42705,
+              39.50286
+            ],
+            [
+              -0.42,
+              39.51887
+            ],
+            [
+              -0.43397,
+              39.5193
+            ],
+            [
+              -0.44537,
+              39.5169
+            ],
+            [
+              -0.46013,
+              39.50845
+            ],
+            [
+              -0.48014,
+              39.47111
+            ],
+            [
+              -0.48084,
+              39.45923
+            ],
+            [
+              -0.44091,
+              39.43467
+            ],
+            [
+              -0.41317,
+              39.4927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-7",
+      "properties": {
+        "id": "valencia-flood-2024-poly-7",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 24.36,
+        "metric": "+24.36 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.40082,
+              39.34322
+            ],
+            [
+              -0.41055,
+              39.34291
+            ],
+            [
+              -0.42535,
+              39.3631
+            ],
+            [
+              -0.44543,
+              39.32643
+            ],
+            [
+              -0.45051,
+              39.29954
+            ],
+            [
+              -0.43935,
+              39.30006
+            ],
+            [
+              -0.43127,
+              39.29602
+            ],
+            [
+              -0.41072,
+              39.30475
+            ],
+            [
+              -0.40289,
+              39.3047
+            ],
+            [
+              -0.40082,
+              39.34322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "valencia-flood-2024-poly-8",
+      "properties": {
+        "id": "valencia-flood-2024-poly-8",
+        "class": "Inundation Zone",
+        "severity": "High Inundation",
+        "area_km2": 57.74,
+        "metric": "+57.74 km\u00b2 flood extent",
+        "date_range": "2024-10-26 to 2024-11-01",
+        "sensor_platform": "OPERA_L3_DSWx-S1_PROVISIONAL_V1",
+        "confidence": 0.97
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.27274,
+              39.49009
+            ],
+            [
+              -0.27511,
+              39.51882
+            ],
+            [
+              -0.30464,
+              39.53288
+            ],
+            [
+              -0.31041,
+              39.52625
+            ],
+            [
+              -0.34237,
+              39.53018
+            ],
+            [
+              -0.35807,
+              39.48274
+            ],
+            [
+              -0.36234,
+              39.47521
+            ],
+            [
+              -0.36064,
+              39.45629
+            ],
+            [
+              -0.3226,
+              39.44864
+            ],
+            [
+              -0.27274,
+              39.49009
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

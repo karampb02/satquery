@@ -1,0 +1,503 @@
+{
+  "type": "FeatureCollection",
+  "scene_id": "california-crop-cycle",
+  "total_features": 8,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-1",
+      "properties": {
+        "id": "california-crop-cycle-poly-1",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 37.18,
+        "metric": "-29.7 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.55021,
+              36.82881
+            ],
+            [
+              -119.57659,
+              36.83684
+            ],
+            [
+              -119.61301,
+              36.83327
+            ],
+            [
+              -119.62693,
+              36.83357
+            ],
+            [
+              -119.64392,
+              36.82963
+            ],
+            [
+              -119.59512,
+              36.79931
+            ],
+            [
+              -119.59368,
+              36.78883
+            ],
+            [
+              -119.56508,
+              36.7969
+            ],
+            [
+              -119.56475,
+              36.80038
+            ],
+            [
+              -119.54793,
+              36.80543
+            ],
+            [
+              -119.54237,
+              36.80431
+            ],
+            [
+              -119.52603,
+              36.81541
+            ],
+            [
+              -119.55021,
+              36.82881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-2",
+      "properties": {
+        "id": "california-crop-cycle-poly-2",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 47.72,
+        "metric": "-38.2 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.47896,
+              36.66765
+            ],
+            [
+              -119.48047,
+              36.6801
+            ],
+            [
+              -119.55008,
+              36.6493
+            ],
+            [
+              -119.53392,
+              36.6395
+            ],
+            [
+              -119.5363,
+              36.61757
+            ],
+            [
+              -119.52989,
+              36.61952
+            ],
+            [
+              -119.47313,
+              36.60817
+            ],
+            [
+              -119.47873,
+              36.61789
+            ],
+            [
+              -119.47773,
+              36.622
+            ],
+            [
+              -119.46342,
+              36.63765
+            ],
+            [
+              -119.47896,
+              36.66765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-3",
+      "properties": {
+        "id": "california-crop-cycle-poly-3",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 24.78,
+        "metric": "-19.8 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.60243,
+              36.60117
+            ],
+            [
+              -119.65155,
+              36.59528
+            ],
+            [
+              -119.66709,
+              36.57959
+            ],
+            [
+              -119.66053,
+              36.57209
+            ],
+            [
+              -119.63529,
+              36.55816
+            ],
+            [
+              -119.62163,
+              36.56939
+            ],
+            [
+              -119.60636,
+              36.56884
+            ],
+            [
+              -119.60243,
+              36.60117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-4",
+      "properties": {
+        "id": "california-crop-cycle-poly-4",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 21.54,
+        "metric": "-17.2 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.55557,
+              36.68815
+            ],
+            [
+              -119.55467,
+              36.6911
+            ],
+            [
+              -119.59404,
+              36.69184
+            ],
+            [
+              -119.63676,
+              36.68531
+            ],
+            [
+              -119.57897,
+              36.66663
+            ],
+            [
+              -119.56589,
+              36.66769
+            ],
+            [
+              -119.54452,
+              36.66997
+            ],
+            [
+              -119.53261,
+              36.67983
+            ],
+            [
+              -119.55557,
+              36.68815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-5",
+      "properties": {
+        "id": "california-crop-cycle-poly-5",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 40.87,
+        "metric": "-32.7 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.42094,
+              36.79338
+            ],
+            [
+              -119.42087,
+              36.79825
+            ],
+            [
+              -119.43511,
+              36.80351
+            ],
+            [
+              -119.4378,
+              36.80535
+            ],
+            [
+              -119.44457,
+              36.81016
+            ],
+            [
+              -119.46317,
+              36.83309
+            ],
+            [
+              -119.47891,
+              36.79157
+            ],
+            [
+              -119.46866,
+              36.762
+            ],
+            [
+              -119.46858,
+              36.75666
+            ],
+            [
+              -119.44935,
+              36.75916
+            ],
+            [
+              -119.42514,
+              36.77041
+            ],
+            [
+              -119.42094,
+              36.79338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-6",
+      "properties": {
+        "id": "california-crop-cycle-poly-6",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 46.0,
+        "metric": "-36.8 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.44104,
+              36.68864
+            ],
+            [
+              -119.44303,
+              36.6888
+            ],
+            [
+              -119.46292,
+              36.68931
+            ],
+            [
+              -119.48324,
+              36.68813
+            ],
+            [
+              -119.48678,
+              36.68576
+            ],
+            [
+              -119.53494,
+              36.66858
+            ],
+            [
+              -119.53351,
+              36.64577
+            ],
+            [
+              -119.45596,
+              36.63868
+            ],
+            [
+              -119.44104,
+              36.68864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-7",
+      "properties": {
+        "id": "california-crop-cycle-poly-7",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 55.6,
+        "metric": "-44.5 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.5529,
+              36.81391
+            ],
+            [
+              -119.53786,
+              36.82427
+            ],
+            [
+              -119.5522,
+              36.82838
+            ],
+            [
+              -119.56132,
+              36.83555
+            ],
+            [
+              -119.56958,
+              36.82993
+            ],
+            [
+              -119.58866,
+              36.82307
+            ],
+            [
+              -119.60843,
+              36.82713
+            ],
+            [
+              -119.59831,
+              36.77726
+            ],
+            [
+              -119.54049,
+              36.77938
+            ],
+            [
+              -119.54006,
+              36.79803
+            ],
+            [
+              -119.53323,
+              36.79814
+            ],
+            [
+              -119.5529,
+              36.81391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-crop-cycle-poly-8",
+      "properties": {
+        "id": "california-crop-cycle-poly-8",
+        "class": "Canopy Loss / Disturbance",
+        "severity": "Severe Disturbance",
+        "area_km2": 26.72,
+        "metric": "-21.4 dB HV drop",
+        "date_range": "2024-03-15 to 2024-08-30",
+        "sensor_platform": "NISAR_L2_GCOV_BETA_V1",
+        "confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.59587,
+              36.67775
+            ],
+            [
+              -119.63153,
+              36.69075
+            ],
+            [
+              -119.67086,
+              36.69057
+            ],
+            [
+              -119.67636,
+              36.67892
+            ],
+            [
+              -119.6688,
+              36.65626
+            ],
+            [
+              -119.66671,
+              36.65157
+            ],
+            [
+              -119.58499,
+              36.66426
+            ],
+            [
+              -119.59587,
+              36.67775
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

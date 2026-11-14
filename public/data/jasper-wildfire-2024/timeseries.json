@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2024-07-10",
+    "value": 482.0,
+    "label": "Pre-fire Montane Forest"
+  },
+  {
+    "date": "2024-07-18",
+    "value": 480.0,
+    "label": "Ignition Point"
+  },
+  {
+    "date": "2024-07-24",
+    "value": 290.5,
+    "label": "Townsite Evacuation"
+  },
+  {
+    "date": "2024-08-05",
+    "value": 165.2,
+    "label": "Valley Complex Spread"
+  },
+  {
+    "date": "2024-08-15",
+    "value": 149.2,
+    "label": "Containment Perimeter"
+  }
+]

@@ -1,12 +1,21 @@
+"""
+Project Liquid — FastAPI Geospatial Backend
+Provides metadata and scientific telemetry endpoints for NASA NISAR and OPERA radar scenes.
+"""
+
+import os
+import json
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.schemas.query_schema import QueryRequest, QueryResponse, DetectionItem
-from app.services.stac_service import fetch_sentinel_granules
-from app.services.raster_service import extract_water_expansion
-from app.services.llm_service import generate_grounded_spatial_report
 
-app = FastAPI(title="SatQuery Geospatial Intelligence Backend")
+app = FastAPI(
+    title="Project Liquid API",
+    description="Telemetry and scene metadata service for NASA NISAR & OPERA radar data.",
+    version="2.0.0"
+)
 
+# Enable CORS for Next.js frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,71 +24,50 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "public" / "data"
+
 @app.get("/")
-async def root():
-    return {"status": "SatQuery Kernel Online", "version": "1.0.0"}
+@app.get("/api/health")
+async def health_check():
+    return {
+        "status": "Project Liquid SAR Telemetry Service Online",
+        "mission": "NASA-ISRO NISAR / NASA OPERA",
+        "challenge": "NASA Space Apps Challenge 2026 — Dancing with the SARs",
+        "credit": "Data: NASA-ISRO NISAR, NASA/JPL OPERA, ASF DAAC, NASA GIBS"
+    }
 
-try:
-    from api.routes import router as api_router
-    app.include_router(api_router, prefix="/api/v1")
-except Exception:
-    pass
+@app.get("/api/scenes")
+async def list_scenes():
+    catalog_path = DATA_DIR / "catalog.json"
+    if not catalog_path.exists():
+        raise HTTPException(status_code=404, detail="Scene catalog not found.")
+    with open(catalog_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
+@app.get("/api/scenes/{scene_id}")
+async def get_scene_meta(scene_id: str):
+    meta_path = DATA_DIR / scene_id / "meta.json"
+    if not meta_path.exists():
+        raise HTTPException(status_code=404, detail=f"Scene '{scene_id}' not found.")
+    with open(meta_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-@app.post("/api/satquery/analyze", response_model=QueryResponse)
-async def analyze_geospatial_query(payload: QueryRequest):
-    bbox = payload.aoi.bbox
-    trace = [
-        "Parsed natural language query and extracted AOI coordinates.",
-        f"Queried STAC catalog for collections [Sentinel-2 L2A] within bbox: {bbox}."
-    ]
+@app.get("/api/scenes/{scene_id}/stats")
+async def get_scene_stats(scene_id: str):
+    stats_path = DATA_DIR / scene_id / "stats.json"
+    if not stats_path.exists():
+        raise HTTPException(status_code=404, detail=f"Stats for scene '{scene_id}' not found.")
+    with open(stats_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    try:
-        # 1. Fetch satellite assets
-        
-        base_item, post_item = fetch_sentinel_granules(bbox, payload.start_date, payload.end_date)
-        trace.append(f"Validated surface reflectance granules: {base_item.id} & {post_item.id}.")
-
-        # 2. Process real band data and vectorize changes
-        geojson_diff, base_km2, post_km2, net_km2, pct = extract_water_expansion(base_item, post_item, bbox)
-        trace.append("Evaluated Modified Normalized Difference Water Index (MNDWI) across high-resolution arrays.")
-        trace.append("Applied dynamic Otsu thresholding and generated geospatial vector polygons.")
-
-        # 3. Grounded LLM narrative
-        narrative = await generate_grounded_spatial_report(
-            user_prompt=payload.prompt,
-            base_km2=base_km2,
-            post_km2=post_km2,
-            net_km2=net_km2,
-            pct_change=pct,
-            bbox=bbox
-        )
-        trace.append("Synthesized multi-source intelligence narrative with grounded spatial metrics.")
-
-        # 4. Extract distinct polygon centroids for detections list
-        detections = []
-        for idx, feat in enumerate(geojson_diff["features"][:5]):
-            coords = feat["geometry"]["coordinates"][0][0]
-            detections.append(DetectionItem(
-                id=f"DET-W-0{idx+1}",
-                type="Surface Water Inundation",
-                lon=float(coords[0]),
-                lat=float(coords[1]),
-                area_km2=round(float(feat["properties"]["area_deg2"]) * 111 * 111, 2),
-                confidence=0.91
-            ))
-
-        return QueryResponse(
-            baseline_water_km2=round(base_km2, 2),
-            post_water_km2=round(post_km2, 2),
-            net_change_km2=round(net_km2, 2),
-            pct_change=round(pct, 2),
-            confidence=0.89,
-            geojson=geojson_diff,
-            ai_narrative=narrative,
-            detections=detections,
-            audit_trace=trace
-        )
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+@app.get("/api/sar-explainer")
+async def get_sar_explainer():
+    return {
+        "radar_physics": "Synthetic Aperture Radar (SAR) transmits microwave pulses (L-band / C-band) and measures return backscatter intensity and wave phase.",
+        "cloud_penetration": "Unlike optical sensors that depend on reflected sunlight and are blocked by clouds, microwave radar frequencies pass freely through clouds, fog, smoke, and darkness.",
+        "change_mechanisms": {
+            "flood": "Smooth standing water causes specular reflection away from the radar antenna, creating a distinct backscatter drop below -18 dB.",
+            "vegetation": "Intact multi-layered forest canopy creates heavy depolarizing volume scattering; clear-cutting or wildfire destroys the canopy, attenuating HV backscatter.",
+            "deformation": "Interferometric SAR (InSAR) measures phase shifts down to millimeters between successive satellite passes, mapping earthquake ruptures and volcanic inflation."
+        }
+    }
