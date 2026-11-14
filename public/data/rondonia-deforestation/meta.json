@@ -5,7 +5,7 @@
   "change_type_label": "Forest Canopy & Disturbance",
   "location": "Rond\u00f4nia, Brazil",
   "country": "Brazil",
-  "flag": "real",
+  "flag": "illustrative",
   "dates": {
     "before": "2024-05-10",
     "after": "2024-10-05"
@@ -22,8 +22,8 @@
   ],
   "zoom": 9.6,
   "source_products": [
-    "OPERA_L3_DIST-ALERT-HLS_T20LNQ_20240504T142719Z_20240509T014711Z_S2B_30_v1",
-    "OPERA_L3_DIST-ALERT-HLS_T20LMQ_20240504T142719Z_20240509T014559Z_S2B_30_v1"
+    "OPERA_L3_DIST-ALERT-S1_T20LNQ_20240504T142719Z_20240509T014711Z_S2B_30_v1",
+    "OPERA_L3_DIST-ALERT-S1_T20LMQ_20240504T142719Z_20240509T014559Z_S2B_30_v1"
   ],
   "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
   "headline": "L-band cross-polarization drop tracks 187 km\u00b2 of new fishbone deforestation corridors.",

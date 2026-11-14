@@ -5,7 +5,7 @@
   "change_type_label": "Ground Deformation & InSAR Displacement",
   "location": "Rutford Ice Stream, West Antarctica",
   "country": "Antarctica",
-  "flag": "real",
+  "flag": "illustrative",
   "dates": {
     "before": "2024-01-15",
     "after": "2024-03-20"

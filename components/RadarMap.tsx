@@ -416,10 +416,19 @@ export default function RadarMap({
 
       {/* SAR Calibration / Sensor Overlay Badge */}
       <div className="absolute bottom-6 left-4 z-10 pointer-events-none hidden sm:block">
-        <div className="bg-[#0a0f18]/90 backdrop-blur-md border border-slate-800/80 rounded-md p-2 text-xxs font-mono text-slate-400 max-w-xs space-y-0.5">
-          <div className="text-teal-400 font-bold flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-teal-400 animate-pulse" />
-            {scene.flag === "real" ? "REAL NASA SAR OBSERVATION" : "VERIFIED SAR SPECIFICATION"}
+        <div className="bg-[#0a0f18]/90 backdrop-blur-md border border-slate-800/80 rounded-md p-2.5 text-xxs font-mono text-slate-400 max-w-sm space-y-1">
+          <div className="flex items-center gap-1.5 font-bold">
+            {scene.flag === "real" ? (
+              <>
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span className="text-emerald-400">VERIFIED NASA SAR OBSERVATION</span>
+              </>
+            ) : (
+              <>
+                <span className="w-2 h-2 rounded-full bg-amber-400" />
+                <span className="text-amber-400">ILLUSTRATIVE SAR SIMULATION (PROCEDURAL MODEL)</span>
+              </>
+            )}
           </div>
           <div className="truncate text-slate-300">Product: {scene.source_products[0]}</div>
           <div className="text-slate-400">DAAC: {scene.daac}</div>

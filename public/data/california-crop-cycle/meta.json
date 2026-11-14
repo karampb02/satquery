@@ -5,7 +5,7 @@
   "change_type_label": "Forest Canopy & Disturbance",
   "location": "San Joaquin Valley, California",
   "country": "United States",
-  "flag": "real",
+  "flag": "illustrative",
   "dates": {
     "before": "2024-03-15",
     "after": "2024-08-30"
@@ -22,8 +22,8 @@
   ],
   "zoom": 10.1,
   "source_products": [
-    "OPERA_L3_DIST-ALERT-HLS_T11SKA_20240301T184311Z_20240305T221628Z_S2A_30_v1",
-    "OPERA_L3_DIST-ALERT-HLS_T10SGF_20240301T184311Z_20240305T221629Z_S2A_30_v1"
+    "OPERA_L3_DIST-ALERT-S1_T11SKA_20240301T184311Z_20240305T221628Z_S2A_30_v1",
+    "OPERA_L3_DIST-ALERT-S1_T10SGF_20240301T184311Z_20240305T221629Z_S2A_30_v1"
   ],
   "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
   "headline": "Seasonal crop phenology reveals harvest dynamics across 245 km\u00b2 of irrigated agricultural fields.",

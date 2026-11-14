@@ -58,8 +58,14 @@ export default function DanceFloorGallery({
                 >
                   {scene.change_type}
                 </span>
-                <span className="px-2 py-0.5 rounded text-xxs font-mono bg-slate-900/80 text-slate-300 border border-slate-700/60">
-                  {scene.flag === "real" ? "NASA DATA" : "SAMPLE"}
+                <span
+                  className={`px-2 py-0.5 rounded text-xxs font-mono border ${
+                    scene.flag === "real"
+                      ? "bg-emerald-950/80 text-emerald-300 border-emerald-700/60"
+                      : "bg-slate-900/80 text-amber-300 border-amber-700/60"
+                  }`}
+                >
+                  {scene.flag === "real" ? "VERIFIED SAR" : "SIMULATION"}
                 </span>
               </div>
 

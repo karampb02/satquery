@@ -173,8 +173,9 @@ export default function AboutPage() {
               validated Synthetic Aperture Radar.
             </p>
             <p>
-              All scene bundles are statically verified, marked with exact granule identifiers, and tagged as &ldquo;real&rdquo;
-              or &ldquo;sample&rdquo; in both <code>meta.json</code> and in-app badges.
+              Scenes in Project Liquid are clearly tagged with their provenance: anchor scenes are processed from verified
+              NASA OPERA SAR observations, while educational interactive scenes are transparently labeled as &ldquo;illustrative simulation&rdquo;
+              in accordance with NASA Space Apps Challenge and synthetic disclosure rules.
             </p>
           </div>
         </section>

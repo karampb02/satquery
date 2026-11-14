@@ -7,7 +7,7 @@ export interface SceneMeta {
   change_type_label: string;
   location: string;
   country: string;
-  flag: "real" | "sample";
+  flag: "real" | "illustrative" | "sample";
   dates: {
     before: string;
     after: string;
@@ -55,7 +55,7 @@ export interface CatalogItem {
   change_type_label: string;
   location: string;
   country: string;
-  flag: "real" | "sample";
+  flag: "real" | "illustrative" | "sample";
   dates: {
     before: string;
     after: string;

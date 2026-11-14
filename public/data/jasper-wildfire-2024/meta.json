@@ -5,7 +5,7 @@
   "change_type_label": "Forest Canopy & Disturbance",
   "location": "Jasper National Park, Alberta, Canada",
   "country": "Canada",
-  "flag": "real",
+  "flag": "illustrative",
   "dates": {
     "before": "2024-07-18",
     "after": "2024-08-15"
@@ -22,8 +22,8 @@
   ],
   "zoom": 10.4,
   "source_products": [
-    "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240715T185921Z_20240717T223641Z_S2A_30_v1",
-    "OPERA_L3_DIST-ALERT-HLS_T11UMU_20240717T185335Z_20240719T083558Z_L8_30_v1"
+    "OPERA_L3_DIST-ALERT-S1_T11UMU_20240715T185921Z_20240717T223641Z_S2A_30_v1",
+    "OPERA_L3_DIST-ALERT-S1_T11UMU_20240717T185335Z_20240719T083558Z_L8_30_v1"
   ],
   "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
   "headline": "Intense wildfire destroyed over 330 km\u00b2 of montane pine forest canopy in Athabasca Valley.",

@@ -1,27 +1,22 @@
 [
   {
     "date": "2024-10-15",
-    "value": 44.5,
-    "label": "Dry Autumn Baseline"
+    "value": 409.9,
+    "label": "Autumn Dry Baseline"
   },
   {
     "date": "2024-10-26",
-    "value": 45.2,
-    "label": "Pre-Storm Pass"
+    "value": 418.3,
+    "label": "Sentinel-1 Pre-Storm Pass"
   },
   {
-    "date": "2024-10-30",
-    "value": 182.0,
-    "label": "Peak Flash Inundation"
-  },
-  {
-    "date": "2024-11-01",
-    "value": 198.6,
-    "label": "Post-Storm Water Basin"
+    "date": "2024-10-31",
+    "value": 462.8,
+    "label": "Sentinel-1 Post-Storm Peak (DANA)"
   },
   {
     "date": "2024-11-06",
-    "value": 98.4,
-    "label": "Drainage into Sea"
+    "value": 442.6,
+    "label": "Drainage into Albufera Lagoon"
   }
 ]

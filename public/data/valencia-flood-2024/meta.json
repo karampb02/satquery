@@ -8,7 +8,7 @@
   "flag": "real",
   "dates": {
     "before": "2024-10-26",
-    "after": "2024-11-01"
+    "after": "2024-10-31"
   },
   "bbox": [
     -0.6,
@@ -22,12 +22,12 @@
   ],
   "zoom": 10.2,
   "source_products": [
-    "OPERA_L3_DSWx-HLS_T30SYJ_20241021T104317Z_20241023T085709Z_L8_30_v1.0",
-    "OPERA_L3_DSWx-HLS_T31SBD_20241021T104317Z_20241023T085612Z_L8_30_v1.0"
+    "OPERA_L3_DSWx-S1_T30SYJ_20241026T175457Z_20241026T230544Z_S1A_30_v1.0",
+    "OPERA_L3_DSWx-S1_T30SYJ_20241031T180258Z_20241102T080220Z_S1A_30_v1.0"
   ],
-  "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
-  "headline": "Catastrophic DANA storm triggered unprecedented flash flooding across the Turia basin and coastal plains.",
-  "story": "On October 29, 2024, an isolated high-altitude depression (DANA) stalled over the Valencian Community, dumping more than a full year's rainfall in under 8 hours. Flash floods swept through towns south of Valencia, inundating residential zones, agricultural fields, and the Albufera coastal wetland lagoon. NASA OPERA DSWx-S1 and SAR imagery mapped the sudden surge of standing water across urbanized and rural floodways.",
+  "daac": "ASF DAAC / NASA PO.DAAC / NASA Earthdata (Verified OPERA SAR)",
+  "headline": "53.9 km\u00b2 of verified flash flood extent mapped through torrential clouds using Sentinel-1 SAR.",
+  "story": "On October 29\u201330, 2024, an isolated high-altitude depression (DANA) dumped over a year of precipitation in hours across the Valencian Community. Torrential flash floods breached drainage channels south of Valencia, submerging farmland, industrial suburbs, and coastal basins. While optical sensors were blinded by storm clouds, NASA OPERA Sentinel-1 SAR microwave pulses (5.405 GHz) penetrated the cloud deck directly, capturing the sudden +53.9 km\u00b2 flood expansion via specular radar reflection.",
   "why_sar": "Why radar sees through cloud and night: Optical imagery was rendered completely unusable by the dense torrential storm clouds during the peak disaster hours, while radar passed straight through to map flooded neighborhoods.",
   "story_steps": [
     {

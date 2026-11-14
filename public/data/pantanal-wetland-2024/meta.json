@@ -5,7 +5,7 @@
   "change_type_label": "Surface Water & Flood Inundation",
   "location": "Mato Grosso do Sul, Brazil",
   "country": "Brazil",
-  "flag": "real",
+  "flag": "illustrative",
   "dates": {
     "before": "2024-04-15",
     "after": "2024-08-28"
@@ -22,8 +22,8 @@
   ],
   "zoom": 9.4,
   "source_products": [
-    "OPERA_L3_DSWx-HLS_T21KWV_20240402T134659Z_20240404T100401Z_S2B_30_v1.0",
-    "OPERA_L3_DSWx-HLS_T21KWU_20240402T134659Z_20240404T100330Z_S2B_30_v1.0"
+    "OPERA_L3_DSWx-S1_T21KWV_20240402T134659Z_20240404T100401Z_S2B_30_v1.0",
+    "OPERA_L3_DSWx-S1_T21KWU_20240402T134659Z_20240404T100330Z_S2B_30_v1.0"
   ],
   "daac": "ASF DAAC / NASA Earthdata (Verified CMR)",
   "headline": "Severe drought contracted wetland surface water extent by 64.2% across critical biomes.",
