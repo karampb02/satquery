@@ -104,31 +104,52 @@ npm install
 # Start the local development server
 npm run dev
 
-# Open in browser: http://localhost:3000
+# Open in browser: http://localhost:3000 (or http://localhost:3001 if 3000 is occupied)
 ```
 
 ### 2. (Optional) Run the FastAPI Telemetry Backend
+The backend provides scene catalogs, real-time metadata, and SAR physics explainers:
 ```bash
+# From the project root:
+backend\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+
+# Or directly inside the backend directory:
 cd backend
 python -m venv .venv
-source .venv/bin/activate  # Or on Windows: .venv\Scripts\activate
+# Windows: .venv\Scripts\activate | Unix: source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --port 8000 --reload
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
+Available API endpoints:
+- `GET /api/health` — Service status & mission credit
+- `GET /api/scenes` — List of all 9 curated SAR scenes
+- `GET /api/scenes/{scene_id}` — Scene metadata & verified NASA granule IDs
+- `GET /api/scenes/{scene_id}/stats` — Quantitative change telemetry ($km^2$, decibels, LOS deformation)
+- `GET /api/sar-explainer` — Physics background on radar wavelengths, speckle, and polarimetry
 
 ---
 
-## 🧪 How to Rerun the Offline Pipeline (`/scripts`)
+## 🧪 How to Rerun the Pipeline & Ingest Real NASA Data (`/scripts`)
 
-The deployed demo runs entirely from pre-processed static assets in `/public/data/` so that it never depends on live network downloads during judging. To re-fetch or re-process scenes:
+### Why Pre-Processed Assets Exist by Default
+Raw NASA/ISRO NISAR (`GCOV`, `GUNW`) and OPERA (`DSWx-S1`, `DIST-ALERT`, `DISP-S1`) products are distributed as massive Cloud-Optimized GeoTIFFs or HDF5 files ranging from **500 MB to 4+ GB per single granule**. Browsers cannot stream gigabytes of raw radar rasters in real-time. Pre-processed static bundles (`before.png`, `after.png`, `change.geojson`, `stats.json`) ensure zero latency, zero required login for evaluators, and 100% offline reliability.
 
 ### 1. Configure NASA Earthdata Credentials
-Copy `.env.example` to `.env` and provide your credentials from [https://urs.earthdata.nasa.gov](https://urs.earthdata.nasa.gov):
-```bash
-cp .env.example .env
+Add your NASA Earthdata single sign-on credentials in `.env`:
+```env
+NASA_EARTHDATA_USER="your_earthdata_username"
+NASA_EARTHDATA_PASS="your_earthdata_password"
+PORT=8000
 ```
 
-### 2. Fetch Granules (`scripts/fetch_data.py`)
+### 2. Automated Live NASA Earthdata Ingestion (`scripts/fetch_real_nasa_data.py`)
+Queries live NASA EOSDIS CMR (Common Metadata Repository) through `earthaccess`, retrieves real granule IDs, and updates scene provenance:
+```bash
+python scripts/fetch_real_nasa_data.py
+```
+This authenticates with NASA EOSDIS, checks catalog availability for all 9 scenes, and synchronizes real verified NASA granule IDs into `/public/data/<scene-id>/meta.json` and `catalog.json` with the `flag: "real"` provenance marker.
+
+### 3. Granule Fetcher & Fallback (`scripts/fetch_data.py`)
 Downloads or queries NISAR/OPERA granules from ASF DAAC / NASA Earthdata:
 ```bash
 # Fetch single scene
@@ -138,7 +159,7 @@ python scripts/fetch_data.py --scene brahmaputra-flood-2024
 python scripts/fetch_data.py --all
 ```
 
-### 3. Run Scientific Radar Processors
+### 4. Run Scientific Radar Processors
 ```bash
 # Backscatter decibel conversion & Lee speckle filtering
 python -c "import scripts.process_backscatter; print('Backscatter module ready')"
@@ -153,7 +174,7 @@ python -c "import scripts.process_deformation; print('Deformation module ready')
 python -c "import scripts.process_vegetation; print('Vegetation module ready')"
 ```
 
-### 4. Export Bundles (`scripts/export_scene.py`)
+### 5. Export Bundles (`scripts/export_scene.py`)
 Generates standardized `meta.json`, `stats.json`, `timeseries.json`, `change.geojson`, `before.png`, and `after.png` into `/public/data/<scene-id>/`:
 ```bash
 python scripts/export_scene.py
